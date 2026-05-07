@@ -1,0 +1,4 @@
+maintenance_status,deliveries,failed,avg_battery_health,avg_customer_rating,failure_rate
+InRepair,254,77,76.73,3.63,30.31
+Active,542,45,76.56,3.95,8.3
+Scheduled,154,10,78.74,3.93,6.49

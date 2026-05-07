@@ -1,0 +1,8 @@
+zone,deliveries,failed,delayed,avg_rating,failure_percent,delayed_percent
+Central,243,49,47,3.78,20.16,19.34
+Airport,104,15,27,3.88,14.42,25.96
+West,127,16,28,3.92,12.6,22.05
+North,136,17,26,3.84,12.5,19.12
+Riverside,115,14,25,3.88,12.17,21.74
+South,106,10,26,3.95,9.43,24.53
+East,119,11,23,3.9,9.24,19.33

@@ -1,0 +1,3859 @@
+[
+    {
+        "order_id": "O00001",
+        "customer": {
+            "customer_id": "C0292",
+            "customer_type": "Consumer",
+            "home_zone": "South",
+            "loyalty_tier": null
+        },
+        "order": {
+            "order_id": "O00001",
+            "customer_id": "C0292",
+            "service_type": "Passenger",
+            "order_created_at": "2024-08-20 14:43:00",
+            "promised_window_hours": 6,
+            "pickup_zone": "Airport",
+            "dropoff_zone": "South",
+            "priority_level": "Medium",
+            "order_value": 126.65,
+            "booking_channel": "App",
+            "special_handling_flag": 0
+        },
+        "delivery": {
+            "delivery_id": "DL00937",
+            "order_id": "O00001",
+            "driver_id": "D047",
+            "vehicle_id": "V090",
+            "hub_id": "H01",
+            "dispatch_time": "2024-08-20 16:29:00",
+            "delivery_completed_at": "2024-08-20 18:52:56.172161",
+            "delivery_status": "OnTime",
+            "route_distance_km": 26.65,
+            "manual_route_override_count": 2,
+            "proof_of_completion_missing": 0,
+            "customer_rating_post_delivery": 4.29,
+            "fuel_or_charge_cost": 15.82,
+            "failed_delivery_flag": 0,
+            "delayed_delivery_flag": 0,
+            "route_override_flag": 1
+        },
+        "driver": {
+            "base_zone": "South",
+            "employment_type": "FullTime",
+            "years_experience": 7,
+            "training_score": 64.6,
+            "driver_rating": 4.7,
+            "shift_preference": "Morning",
+            "active_flag": 1
+        },
+        "vehicle": {
+            "vehicle_type": "Hybrid",
+            "assigned_zone": "WEST",
+            "commission_date": "2024-08-16 01:10:00",
+            "battery_health_pct": 93.8,
+            "odometer_km": 98472,
+            "maintenance_status": "InRepair",
+            "telematics_version": "v2.0"
+        },
+        "hub": {
+            "hub_name": "North Exchange",
+            "zone": "North",
+            "hub_type": "Dispatch",
+            "capacity_score": 82
+        },
+        "complaints": [],
+        "incidents": [],
+        "app_events": [
+            {
+                "event_id": "AE00503",
+                "customer_id": "C0112",
+                "order_id": "O00001",
+                "event_timestamp": "2024-08-02 12:35:00",
+                "event_type": "delivery_instruction_update",
+                "session_id": "S44209",
+                "device_type": "Android",
+                "zone_context": "Riverside",
+                "api_latency_ms": 204,
+                "success_flag": 1,
+                "app_failure_flag": 0
+            }
+        ],
+        "risk_flags": {
+            "failed_delivery": false,
+            "delayed_delivery": false,
+            "has_complaint": false,
+            "has_incident": false,
+            "route_override_used": true,
+            "low_rating": false
+        }
+    },
+    {
+        "order_id": "O00002",
+        "customer": {
+            "customer_id": "C0459",
+            "customer_type": "Consumer",
+            "home_zone": "WEST",
+            "loyalty_tier": null
+        },
+        "order": {
+            "order_id": "O00002",
+            "customer_id": "C0459",
+            "service_type": "Passenger",
+            "order_created_at": "2024-05-14 22:16:00",
+            "promised_window_hours": 24,
+            "pickup_zone": "North",
+            "dropoff_zone": "AIRPORT",
+            "priority_level": "Low",
+            "order_value": 109.3,
+            "booking_channel": "App",
+            "special_handling_flag": 0
+        },
+        "delivery": {},
+        "driver": {},
+        "vehicle": {},
+        "hub": {},
+        "complaints": [],
+        "incidents": [],
+        "app_events": [
+            {
+                "event_id": "AE00543",
+                "customer_id": "C0176",
+                "order_id": "O00002",
+                "event_timestamp": "2025-06-26 03:34:00",
+                "event_type": "track_order",
+                "session_id": "S74871",
+                "device_type": "iOS",
+                "zone_context": "AIRPORT",
+                "api_latency_ms": 244,
+                "success_flag": 1,
+                "app_failure_flag": 0
+            }
+        ],
+        "risk_flags": {
+            "failed_delivery": false,
+            "delayed_delivery": false,
+            "has_complaint": false,
+            "has_incident": false,
+            "route_override_used": false,
+            "low_rating": false
+        }
+    },
+    {
+        "order_id": "O00003",
+        "customer": {
+            "customer_id": "C0161",
+            "customer_type": "Consumer",
+            "home_zone": "north",
+            "loyalty_tier": null
+        },
+        "order": {
+            "order_id": "O00003",
+            "customer_id": "C0161",
+            "service_type": "Passenger",
+            "order_created_at": "2025-09-02 14:37:00",
+            "promised_window_hours": 4,
+            "pickup_zone": "West",
+            "dropoff_zone": "AIRPORT",
+            "priority_level": "High",
+            "order_value": 33.5,
+            "booking_channel": "Phone",
+            "special_handling_flag": 0
+        },
+        "delivery": {
+            "delivery_id": "DL00925",
+            "order_id": "O00003",
+            "driver_id": "D041",
+            "vehicle_id": "V100",
+            "hub_id": "H02",
+            "dispatch_time": "2025-09-02 16:59:00",
+            "delivery_completed_at": "2025-09-03 01:50:39.644673",
+            "delivery_status": "Delayed",
+            "route_distance_km": 13.04,
+            "manual_route_override_count": 2,
+            "proof_of_completion_missing": 0,
+            "customer_rating_post_delivery": 3.7,
+            "fuel_or_charge_cost": 13.16,
+            "failed_delivery_flag": 0,
+            "delayed_delivery_flag": 1,
+            "route_override_flag": 1
+        },
+        "driver": {
+            "base_zone": "EAST",
+            "employment_type": "PartTime",
+            "years_experience": 3,
+            "training_score": 88.2,
+            "driver_rating": 3.67,
+            "shift_preference": "Morning",
+            "active_flag": 1
+        },
+        "vehicle": {
+            "vehicle_type": "CargoVan",
+            "assigned_zone": "East",
+            "commission_date": "2024-06-23 11:24:00",
+            "battery_health_pct": 60.1,
+            "odometer_km": 31876,
+            "maintenance_status": "Active",
+            "telematics_version": "v2.0"
+        },
+        "hub": {
+            "hub_name": "South Link",
+            "zone": "South",
+            "hub_type": "Dispatch",
+            "capacity_score": 78
+        },
+        "complaints": [
+            {
+                "complaint_id": "CP0165",
+                "customer_id": "C0161",
+                "order_id": "O00003",
+                "complaint_type": "AppIssue",
+                "channel": "Phone",
+                "severity": "Medium",
+                "created_at": "2025-09-07 14:37:00",
+                "status": "Open",
+                "resolution_days": 2,
+                "compensation_amount": 8.66
+            }
+        ],
+        "incidents": [],
+        "app_events": [],
+        "risk_flags": {
+            "failed_delivery": false,
+            "delayed_delivery": true,
+            "has_complaint": true,
+            "has_incident": false,
+            "route_override_used": true,
+            "low_rating": false
+        }
+    },
+    {
+        "order_id": "O00004",
+        "customer": {
+            "customer_id": "C0520",
+            "customer_type": "Consumer",
+            "home_zone": "NORTH",
+            "loyalty_tier": null
+        },
+        "order": {
+            "order_id": "O00004",
+            "customer_id": "C0520",
+            "service_type": "Parcel",
+            "order_created_at": "2025-01-11 17:15:00",
+            "promised_window_hours": 2,
+            "pickup_zone": "RiverSide",
+            "dropoff_zone": "North",
+            "priority_level": "Medium",
+            "order_value": 10.04,
+            "booking_channel": "App",
+            "special_handling_flag": 1
+        },
+        "delivery": {
+            "delivery_id": "DL00002",
+            "order_id": "O00004",
+            "driver_id": "D138",
+            "vehicle_id": "V007",
+            "hub_id": "H02",
+            "dispatch_time": "2025-01-11 18:45:00",
+            "delivery_completed_at": "2025-01-11 17:39:00.000000",
+            "delivery_status": "OnTime",
+            "route_distance_km": 10.34,
+            "manual_route_override_count": 1,
+            "proof_of_completion_missing": 0,
+            "customer_rating_post_delivery": 5.0,
+            "fuel_or_charge_cost": 13.41,
+            "failed_delivery_flag": 0,
+            "delayed_delivery_flag": 0,
+            "route_override_flag": 1
+        },
+        "driver": {
+            "base_zone": "Ctr",
+            "employment_type": "PartTime",
+            "years_experience": 11,
+            "training_score": 69.2,
+            "driver_rating": 4.61,
+            "shift_preference": "Evening",
+            "active_flag": 1
+        },
+        "vehicle": {
+            "vehicle_type": "Diesel",
+            "assigned_zone": "AIRPORT",
+            "commission_date": "2025-09-17 08:52:00",
+            "battery_health_pct": 68.6,
+            "odometer_km": 78468,
+            "maintenance_status": "Active",
+            "telematics_version": "v2.2"
+        },
+        "hub": {
+            "hub_name": "South Link",
+            "zone": "South",
+            "hub_type": "Dispatch",
+            "capacity_score": 78
+        },
+        "complaints": [],
+        "incidents": [],
+        "app_events": [],
+        "risk_flags": {
+            "failed_delivery": false,
+            "delayed_delivery": false,
+            "has_complaint": false,
+            "has_incident": false,
+            "route_override_used": true,
+            "low_rating": false
+        }
+    },
+    {
+        "order_id": "O00005",
+        "customer": {
+            "customer_id": "C0558",
+            "customer_type": "Consumer",
+            "home_zone": "SOUTH",
+            "loyalty_tier": null
+        },
+        "order": {
+            "order_id": "O00005",
+            "customer_id": "C0558",
+            "service_type": "Retail",
+            "order_created_at": "2025-02-17 19:32:00",
+            "promised_window_hours": 12,
+            "pickup_zone": "Riverside",
+            "dropoff_zone": "SOUTH",
+            "priority_level": "Low",
+            "order_value": 125.58,
+            "booking_channel": "Phone",
+            "special_handling_flag": 0
+        },
+        "delivery": {
+            "delivery_id": "DL00671",
+            "order_id": "O00005",
+            "driver_id": "D054",
+            "vehicle_id": "V073",
+            "hub_id": "H03",
+            "dispatch_time": "2025-02-17 20:23:00",
+            "delivery_completed_at": "2025-02-18 08:05:00.047082",
+            "delivery_status": "OnTime",
+            "route_distance_km": 16.01,
+            "manual_route_override_count": 1,
+            "proof_of_completion_missing": 0,
+            "customer_rating_post_delivery": 4.38,
+            "fuel_or_charge_cost": 13.53,
+            "failed_delivery_flag": 0,
+            "delayed_delivery_flag": 0,
+            "route_override_flag": 1
+        },
+        "driver": {
+            "base_zone": "WEST",
+            "employment_type": "FullTime",
+            "years_experience": 3,
+            "training_score": 80.1,
+            "driver_rating": 4.32,
+            "shift_preference": "Morning",
+            "active_flag": 1
+        },
+        "vehicle": {
+            "vehicle_type": "Hybrid",
+            "assigned_zone": "AIRPORT",
+            "commission_date": "2024-05-28 05:33:00",
+            "battery_health_pct": NaN,
+            "odometer_km": 191353,
+            "maintenance_status": "Active",
+            "telematics_version": "v2.1"
+        },
+        "hub": {
+            "hub_name": "East Dock",
+            "zone": "East",
+            "hub_type": "Warehouse",
+            "capacity_score": 74
+        },
+        "complaints": [
+            {
+                "complaint_id": "CP0120",
+                "customer_id": "C0558",
+                "order_id": "O00005",
+                "complaint_type": "MissedPickup",
+                "channel": "Phone",
+                "severity": "Medium",
+                "created_at": "2025-02-25 19:32:00",
+                "status": "Resolved",
+                "resolution_days": 8,
+                "compensation_amount": 54.41
+            }
+        ],
+        "incidents": [],
+        "app_events": [],
+        "risk_flags": {
+            "failed_delivery": false,
+            "delayed_delivery": false,
+            "has_complaint": true,
+            "has_incident": false,
+            "route_override_used": true,
+            "low_rating": false
+        }
+    },
+    {
+        "order_id": "O00006",
+        "customer": {
+            "customer_id": "C0437",
+            "customer_type": "Consumer",
+            "home_zone": "Airport",
+            "loyalty_tier": null
+        },
+        "order": {
+            "order_id": "O00006",
+            "customer_id": "C0437",
+            "service_type": "Retail",
+            "order_created_at": "2024-08-05 04:55:00",
+            "promised_window_hours": 1,
+            "pickup_zone": "CENTRAL",
+            "dropoff_zone": "East",
+            "priority_level": "High",
+            "order_value": 151.44,
+            "booking_channel": "Web",
+            "special_handling_flag": 1
+        },
+        "delivery": {},
+        "driver": {},
+        "vehicle": {},
+        "hub": {},
+        "complaints": [],
+        "incidents": [],
+        "app_events": [],
+        "risk_flags": {
+            "failed_delivery": false,
+            "delayed_delivery": false,
+            "has_complaint": false,
+            "has_incident": false,
+            "route_override_used": false,
+            "low_rating": false
+        }
+    },
+    {
+        "order_id": "O00007",
+        "customer": {
+            "customer_id": "C0001",
+            "customer_type": "SME",
+            "home_zone": "North",
+            "loyalty_tier": null
+        },
+        "order": {
+            "order_id": "O00007",
+            "customer_id": "C0001",
+            "service_type": "Business",
+            "order_created_at": "2024-05-05 21:32:00",
+            "promised_window_hours": 2,
+            "pickup_zone": "CENTRAL",
+            "dropoff_zone": "Airport",
+            "priority_level": "Low",
+            "order_value": 76.12,
+            "booking_channel": "App",
+            "special_handling_flag": 0
+        },
+        "delivery": {
+            "delivery_id": "DL00120",
+            "order_id": "O00007",
+            "driver_id": "D128",
+            "vehicle_id": "V047",
+            "hub_id": "H06",
+            "dispatch_time": "2024-05-05 22:10:00",
+            "delivery_completed_at": "2024-05-06 07:05:17.555250",
+            "delivery_status": "Delayed",
+            "route_distance_km": 9.07,
+            "manual_route_override_count": 1,
+            "proof_of_completion_missing": 1,
+            "customer_rating_post_delivery": 3.93,
+            "fuel_or_charge_cost": 9.76,
+            "failed_delivery_flag": 0,
+            "delayed_delivery_flag": 1,
+            "route_override_flag": 1
+        },
+        "driver": {
+            "base_zone": "Central",
+            "employment_type": "Contract",
+            "years_experience": 13,
+            "training_score": 84.7,
+            "driver_rating": 3.32,
+            "shift_preference": "Morning",
+            "active_flag": 1
+        },
+        "vehicle": {
+            "vehicle_type": "EV",
+            "assigned_zone": "Ctr",
+            "commission_date": "2025-02-15 14:49:00",
+            "battery_health_pct": 93.7,
+            "odometer_km": 134347,
+            "maintenance_status": "Scheduled",
+            "telematics_version": "v2.2"
+        },
+        "hub": {
+            "hub_name": "Airport Hub",
+            "zone": "Airport",
+            "hub_type": "Dispatch",
+            "capacity_score": 71
+        },
+        "complaints": [
+            {
+                "complaint_id": "CP0096",
+                "customer_id": "C0001",
+                "order_id": "O00007",
+                "complaint_type": "AppIssue",
+                "channel": "App",
+                "severity": "High",
+                "created_at": "2024-05-12 21:32:00",
+                "status": "Resolved",
+                "resolution_days": 22,
+                "compensation_amount": 43.9
+            }
+        ],
+        "incidents": [],
+        "app_events": [],
+        "risk_flags": {
+            "failed_delivery": false,
+            "delayed_delivery": true,
+            "has_complaint": true,
+            "has_incident": false,
+            "route_override_used": true,
+            "low_rating": false
+        }
+    },
+    {
+        "order_id": "O00008",
+        "customer": {
+            "customer_id": "C0157",
+            "customer_type": "Consumer",
+            "home_zone": "CENTRAL",
+            "loyalty_tier": null
+        },
+        "order": {
+            "order_id": "O00008",
+            "customer_id": "C0157",
+            "service_type": "Parcel",
+            "order_created_at": "2024-04-03 17:54:00",
+            "promised_window_hours": 4,
+            "pickup_zone": "Riverside",
+            "dropoff_zone": "Riverside",
+            "priority_level": "Medium",
+            "order_value": 35.06,
+            "booking_channel": "Phone",
+            "special_handling_flag": 0
+        },
+        "delivery": {
+            "delivery_id": "DL00201",
+            "order_id": "O00008",
+            "driver_id": "D036",
+            "vehicle_id": "V041",
+            "hub_id": "H03",
+            "dispatch_time": "2024-04-03 20:22:00",
+            "delivery_completed_at": "2024-04-03 20:46:56.611810",
+            "delivery_status": "OnTime",
+            "route_distance_km": 14.08,
+            "manual_route_override_count": 0,
+            "proof_of_completion_missing": 0,
+            "customer_rating_post_delivery": 5.0,
+            "fuel_or_charge_cost": 12.87,
+            "failed_delivery_flag": 0,
+            "delayed_delivery_flag": 0,
+            "route_override_flag": 0
+        },
+        "driver": {
+            "base_zone": "Airport",
+            "employment_type": "PartTime",
+            "years_experience": 9,
+            "training_score": 79.3,
+            "driver_rating": 4.69,
+            "shift_preference": "Morning",
+            "active_flag": 1
+        },
+        "vehicle": {
+            "vehicle_type": "EV",
+            "assigned_zone": "East",
+            "commission_date": "2024-01-11 21:04:00",
+            "battery_health_pct": 78.4,
+            "odometer_km": 88129,
+            "maintenance_status": "Active",
+            "telematics_version": "v2.2"
+        },
+        "hub": {
+            "hub_name": "East Dock",
+            "zone": "East",
+            "hub_type": "Warehouse",
+            "capacity_score": 74
+        },
+        "complaints": [
+            {
+                "complaint_id": "CP0013",
+                "customer_id": "C0157",
+                "order_id": "O00008",
+                "complaint_type": "MissedPickup",
+                "channel": "Phone",
+                "severity": "Medium",
+                "created_at": "2024-04-08 17:54:00",
+                "status": "Resolved",
+                "resolution_days": 8,
+                "compensation_amount": 15.77
+            }
+        ],
+        "incidents": [],
+        "app_events": [
+            {
+                "event_id": "AE00202",
+                "customer_id": "C0190",
+                "order_id": "O00008",
+                "event_timestamp": "2024-12-31 22:36:00",
+                "event_type": "track_order",
+                "session_id": "S46827",
+                "device_type": "Android",
+                "zone_context": "Riverside",
+                "api_latency_ms": 747,
+                "success_flag": 1,
+                "app_failure_flag": 0
+            }
+        ],
+        "risk_flags": {
+            "failed_delivery": false,
+            "delayed_delivery": false,
+            "has_complaint": true,
+            "has_incident": false,
+            "route_override_used": false,
+            "low_rating": false
+        }
+    },
+    {
+        "order_id": "O00009",
+        "customer": {
+            "customer_id": "C0141",
+            "customer_type": "Consumer",
+            "home_zone": "West",
+            "loyalty_tier": null
+        },
+        "order": {
+            "order_id": "O00009",
+            "customer_id": "C0141",
+            "service_type": "Retail",
+            "order_created_at": "2024-10-03 23:49:00",
+            "promised_window_hours": 12,
+            "pickup_zone": "NORTH",
+            "dropoff_zone": "East",
+            "priority_level": "Critical",
+            "order_value": 78.93,
+            "booking_channel": "App",
+            "special_handling_flag": 0
+        },
+        "delivery": {
+            "delivery_id": "DL00042",
+            "order_id": "O00009",
+            "driver_id": "D146",
+            "vehicle_id": "V020",
+            "hub_id": "H01",
+            "dispatch_time": "2024-10-04 01:05:00",
+            "delivery_completed_at": "2024-10-04 10:49:54.333414",
+            "delivery_status": "OnTime",
+            "route_distance_km": 12.02,
+            "manual_route_override_count": 0,
+            "proof_of_completion_missing": 0,
+            "customer_rating_post_delivery": 4.45,
+            "fuel_or_charge_cost": 11.41,
+            "failed_delivery_flag": 0,
+            "delayed_delivery_flag": 0,
+            "route_override_flag": 0
+        },
+        "driver": {
+            "base_zone": "Airport",
+            "employment_type": "Contract",
+            "years_experience": 1,
+            "training_score": NaN,
+            "driver_rating": 4.36,
+            "shift_preference": "Morning",
+            "active_flag": 1
+        },
+        "vehicle": {
+            "vehicle_type": "Hybrid",
+            "assigned_zone": "Riverside",
+            "commission_date": "2024-10-26 11:25:00",
+            "battery_health_pct": 82.3,
+            "odometer_km": 187051,
+            "maintenance_status": "Scheduled",
+            "telematics_version": "v2.1"
+        },
+        "hub": {
+            "hub_name": "North Exchange",
+            "zone": "North",
+            "hub_type": "Dispatch",
+            "capacity_score": 82
+        },
+        "complaints": [],
+        "incidents": [
+            {
+                "incident_id": "I0066",
+                "delivery_id": "DL00042",
+                "incident_type": "RouteDeviation",
+                "reported_at": "2024-10-04 02:46:00",
+                "severity": "Low",
+                "resolution_status": "Closed",
+                "resolved_hours": 28.0
+            }
+        ],
+        "app_events": [],
+        "risk_flags": {
+            "failed_delivery": false,
+            "delayed_delivery": false,
+            "has_complaint": false,
+            "has_incident": true,
+            "route_override_used": false,
+            "low_rating": false
+        }
+    },
+    {
+        "order_id": "O00010",
+        "customer": {
+            "customer_id": "C0171",
+            "customer_type": "Consumer",
+            "home_zone": "SOUTH",
+            "loyalty_tier": null
+        },
+        "order": {
+            "order_id": "O00010",
+            "customer_id": "C0171",
+            "service_type": "Retail",
+            "order_created_at": "2025-01-29 00:42:00",
+            "promised_window_hours": 6,
+            "pickup_zone": "South",
+            "dropoff_zone": "north",
+            "priority_level": "Low",
+            "order_value": 34.55,
+            "booking_channel": "Phone",
+            "special_handling_flag": 0
+        },
+        "delivery": {
+            "delivery_id": "DL00032",
+            "order_id": "O00010",
+            "driver_id": "D045",
+            "vehicle_id": "V010",
+            "hub_id": "H08",
+            "dispatch_time": "2025-01-29 02:58:00",
+            "delivery_completed_at": "2025-01-29 05:57:46.344204",
+            "delivery_status": "OnTime",
+            "route_distance_km": 15.58,
+            "manual_route_override_count": 1,
+            "proof_of_completion_missing": 0,
+            "customer_rating_post_delivery": 4.23,
+            "fuel_or_charge_cost": 13.75,
+            "failed_delivery_flag": 0,
+            "delayed_delivery_flag": 0,
+            "route_override_flag": 1
+        },
+        "driver": {
+            "base_zone": "NORTH",
+            "employment_type": "FullTime",
+            "years_experience": 2,
+            "training_score": 59.6,
+            "driver_rating": 4.12,
+            "shift_preference": "Flexible",
+            "active_flag": 1
+        },
+        "vehicle": {
+            "vehicle_type": "CargoVan",
+            "assigned_zone": "NORTH",
+            "commission_date": "2025-10-07 22:40:00",
+            "battery_health_pct": 50.7,
+            "odometer_km": 129032,
+            "maintenance_status": "InRepair",
+            "telematics_version": "v2.1"
+        },
+        "hub": {
+            "hub_name": "Midtown Relay",
+            "zone": "Central",
+            "hub_type": "Charging",
+            "capacity_score": 63
+        },
+        "complaints": [],
+        "incidents": [
+            {
+                "incident_id": "I0038",
+                "delivery_id": "DL00032",
+                "incident_type": "ProofMissing",
+                "reported_at": "2025-01-29 06:31:00",
+                "severity": "Medium",
+                "resolution_status": "Closed",
+                "resolved_hours": 5.2
+            }
+        ],
+        "app_events": [],
+        "risk_flags": {
+            "failed_delivery": false,
+            "delayed_delivery": false,
+            "has_complaint": false,
+            "has_incident": true,
+            "route_override_used": true,
+            "low_rating": false
+        }
+    },
+    {
+        "order_id": "O00011",
+        "customer": {
+            "customer_id": "C0340",
+            "customer_type": "Consumer",
+            "home_zone": "EAST",
+            "loyalty_tier": null
+        },
+        "order": {
+            "order_id": "O00011",
+            "customer_id": "C0340",
+            "service_type": "Parcel",
+            "order_created_at": "2025-08-04 04:19:00",
+            "promised_window_hours": 12,
+            "pickup_zone": "WEST",
+            "dropoff_zone": "Central",
+            "priority_level": "Low",
+            "order_value": 79.1,
+            "booking_channel": "Phone",
+            "special_handling_flag": 0
+        },
+        "delivery": {},
+        "driver": {},
+        "vehicle": {},
+        "hub": {},
+        "complaints": [
+            {
+                "complaint_id": "CP0009",
+                "customer_id": "C0340",
+                "order_id": "O00011",
+                "complaint_type": "Delay",
+                "channel": "App",
+                "severity": "Low",
+                "created_at": "2025-08-16 04:19:00",
+                "status": "Resolved",
+                "resolution_days": 4,
+                "compensation_amount": 26.35
+            }
+        ],
+        "incidents": [],
+        "app_events": [
+            {
+                "event_id": "AE00123",
+                "customer_id": "C0250",
+                "order_id": "O00011",
+                "event_timestamp": "2024-11-15 06:53:00",
+                "event_type": "payment_retry",
+                "session_id": "S15600",
+                "device_type": "Android",
+                "zone_context": "CENTRAL",
+                "api_latency_ms": 1558,
+                "success_flag": 1,
+                "app_failure_flag": 0
+            },
+            {
+                "event_id": "AE00575",
+                "customer_id": "C0509",
+                "order_id": "O00011",
+                "event_timestamp": "2024-12-26 18:38:00",
+                "event_type": "track_order",
+                "session_id": "S44128",
+                "device_type": "iOS",
+                "zone_context": "AIRPORT",
+                "api_latency_ms": 456,
+                "success_flag": 1,
+                "app_failure_flag": 0
+            }
+        ],
+        "risk_flags": {
+            "failed_delivery": false,
+            "delayed_delivery": false,
+            "has_complaint": true,
+            "has_incident": false,
+            "route_override_used": false,
+            "low_rating": false
+        }
+    },
+    {
+        "order_id": "O00012",
+        "customer": {
+            "customer_id": "C0567",
+            "customer_type": "Consumer",
+            "home_zone": "East",
+            "loyalty_tier": null
+        },
+        "order": {
+            "order_id": "O00012",
+            "customer_id": "C0567",
+            "service_type": "Business",
+            "order_created_at": "2024-01-16 12:45:00",
+            "promised_window_hours": 12,
+            "pickup_zone": "East",
+            "dropoff_zone": "Airport",
+            "priority_level": "Medium",
+            "order_value": 135.67,
+            "booking_channel": "App",
+            "special_handling_flag": 0
+        },
+        "delivery": {
+            "delivery_id": "DL00606",
+            "order_id": "O00012",
+            "driver_id": "D075",
+            "vehicle_id": "V112",
+            "hub_id": "H04",
+            "dispatch_time": "2024-01-16 13:32:00",
+            "delivery_completed_at": "2024-01-16 23:32:34.302064",
+            "delivery_status": "OnTime",
+            "route_distance_km": 13.39,
+            "manual_route_override_count": 0,
+            "proof_of_completion_missing": 0,
+            "customer_rating_post_delivery": 4.12,
+            "fuel_or_charge_cost": 13.11,
+            "failed_delivery_flag": 0,
+            "delayed_delivery_flag": 0,
+            "route_override_flag": 0
+        },
+        "driver": {
+            "base_zone": "Airport",
+            "employment_type": "FullTime",
+            "years_experience": 13,
+            "training_score": 99.0,
+            "driver_rating": 3.62,
+            "shift_preference": "Evening",
+            "active_flag": 1
+        },
+        "vehicle": {
+            "vehicle_type": "EV",
+            "assigned_zone": "South",
+            "commission_date": "2024-06-08 07:45:00",
+            "battery_health_pct": 94.1,
+            "odometer_km": 19121,
+            "maintenance_status": "InRepair",
+            "telematics_version": "v2.1"
+        },
+        "hub": {
+            "hub_name": "West Gate",
+            "zone": "West",
+            "hub_type": "Dispatch",
+            "capacity_score": 69
+        },
+        "complaints": [
+            {
+                "complaint_id": "CP0253",
+                "customer_id": "C0567",
+                "order_id": "O00012",
+                "complaint_type": "AppIssue",
+                "channel": "App",
+                "severity": "Medium",
+                "created_at": "2024-01-25 12:45:00",
+                "status": "Resolved",
+                "resolution_days": 13,
+                "compensation_amount": 22.73
+            }
+        ],
+        "incidents": [],
+        "app_events": [],
+        "risk_flags": {
+            "failed_delivery": false,
+            "delayed_delivery": false,
+            "has_complaint": true,
+            "has_incident": false,
+            "route_override_used": false,
+            "low_rating": false
+        }
+    },
+    {
+        "order_id": "O00013",
+        "customer": {
+            "customer_id": "C0234",
+            "customer_type": "Consumer",
+            "home_zone": "North",
+            "loyalty_tier": null
+        },
+        "order": {
+            "order_id": "O00013",
+            "customer_id": "C0234",
+            "service_type": "Retail",
+            "order_created_at": "2024-03-29 22:11:00",
+            "promised_window_hours": 24,
+            "pickup_zone": "Airport",
+            "dropoff_zone": "Central",
+            "priority_level": "Medium",
+            "order_value": 302.7,
+            "booking_channel": "App",
+            "special_handling_flag": 0
+        },
+        "delivery": {
+            "delivery_id": "DL00236",
+            "order_id": "O00013",
+            "driver_id": "D163",
+            "vehicle_id": "V009",
+            "hub_id": "H07",
+            "dispatch_time": "2024-03-29 22:48:00",
+            "delivery_completed_at": "2024-03-30 20:39:02.394303",
+            "delivery_status": "OnTime",
+            "route_distance_km": 20.12,
+            "manual_route_override_count": 2,
+            "proof_of_completion_missing": 0,
+            "customer_rating_post_delivery": 3.74,
+            "fuel_or_charge_cost": 17.02,
+            "failed_delivery_flag": 0,
+            "delayed_delivery_flag": 0,
+            "route_override_flag": 1
+        },
+        "driver": {
+            "base_zone": "RiverSide",
+            "employment_type": "FullTime",
+            "years_experience": 11,
+            "training_score": 78.2,
+            "driver_rating": 4.5,
+            "shift_preference": "Morning",
+            "active_flag": 0
+        },
+        "vehicle": {
+            "vehicle_type": "CargoVan",
+            "assigned_zone": "South",
+            "commission_date": "2025-05-01 08:50:00",
+            "battery_health_pct": 68.8,
+            "odometer_km": 156687,
+            "maintenance_status": "Active",
+            "telematics_version": "v2.1"
+        },
+        "hub": {
+            "hub_name": "Riverside Hub",
+            "zone": "Riverside",
+            "hub_type": "Warehouse",
+            "capacity_score": 66
+        },
+        "complaints": [
+            {
+                "complaint_id": "CP0016",
+                "customer_id": "C0234",
+                "order_id": "O00013",
+                "complaint_type": "MissedPickup",
+                "channel": "App",
+                "severity": "Medium",
+                "created_at": "2024-03-30 22:11:00",
+                "status": "Resolved",
+                "resolution_days": 10,
+                "compensation_amount": 0.0
+            }
+        ],
+        "incidents": [],
+        "app_events": [],
+        "risk_flags": {
+            "failed_delivery": false,
+            "delayed_delivery": false,
+            "has_complaint": true,
+            "has_incident": false,
+            "route_override_used": true,
+            "low_rating": false
+        }
+    },
+    {
+        "order_id": "O00014",
+        "customer": {
+            "customer_id": "C0318",
+            "customer_type": "Consumer",
+            "home_zone": "WEST",
+            "loyalty_tier": null
+        },
+        "order": {
+            "order_id": "O00014",
+            "customer_id": "C0318",
+            "service_type": "Passenger",
+            "order_created_at": "2024-08-25 10:12:00",
+            "promised_window_hours": 6,
+            "pickup_zone": "Ctr",
+            "dropoff_zone": "Ctr",
+            "priority_level": "Low",
+            "order_value": 90.96,
+            "booking_channel": "Phone",
+            "special_handling_flag": 0
+        },
+        "delivery": {
+            "delivery_id": "DL00441",
+            "order_id": "O00014",
+            "driver_id": "D141",
+            "vehicle_id": "V068",
+            "hub_id": "H01",
+            "dispatch_time": "2024-08-25 12:01:00",
+            "delivery_completed_at": "2024-08-25 15:01:44.356021",
+            "delivery_status": "OnTime",
+            "route_distance_km": 8.82,
+            "manual_route_override_count": 0,
+            "proof_of_completion_missing": 0,
+            "customer_rating_post_delivery": 4.7,
+            "fuel_or_charge_cost": 7.36,
+            "failed_delivery_flag": 0,
+            "delayed_delivery_flag": 0,
+            "route_override_flag": 0
+        },
+        "driver": {
+            "base_zone": "North",
+            "employment_type": "PartTime",
+            "years_experience": 14,
+            "training_score": 71.4,
+            "driver_rating": 3.44,
+            "shift_preference": "Flexible",
+            "active_flag": 1
+        },
+        "vehicle": {
+            "vehicle_type": "Hybrid",
+            "assigned_zone": "Riverside",
+            "commission_date": "2024-06-28 15:49:00",
+            "battery_health_pct": 97.5,
+            "odometer_km": 73769,
+            "maintenance_status": "InRepair",
+            "telematics_version": "v2.0"
+        },
+        "hub": {
+            "hub_name": "North Exchange",
+            "zone": "North",
+            "hub_type": "Dispatch",
+            "capacity_score": 82
+        },
+        "complaints": [],
+        "incidents": [],
+        "app_events": [
+            {
+                "event_id": "AE00493",
+                "customer_id": "C0032",
+                "order_id": "O00014",
+                "event_timestamp": "2025-10-16 22:09:00",
+                "event_type": "search_route",
+                "session_id": "S81341",
+                "device_type": "Android",
+                "zone_context": "West",
+                "api_latency_ms": 609,
+                "success_flag": 1,
+                "app_failure_flag": 0
+            }
+        ],
+        "risk_flags": {
+            "failed_delivery": false,
+            "delayed_delivery": false,
+            "has_complaint": false,
+            "has_incident": false,
+            "route_override_used": false,
+            "low_rating": false
+        }
+    },
+    {
+        "order_id": "O00015",
+        "customer": {
+            "customer_id": "C0300",
+            "customer_type": "Consumer",
+            "home_zone": "CENTRAL",
+            "loyalty_tier": null
+        },
+        "order": {
+            "order_id": "O00015",
+            "customer_id": "C0300",
+            "service_type": "Business",
+            "order_created_at": "2025-11-09 03:04:00",
+            "promised_window_hours": 6,
+            "pickup_zone": "SOUTH",
+            "dropoff_zone": "East",
+            "priority_level": "High",
+            "order_value": 145.58,
+            "booking_channel": "Web",
+            "special_handling_flag": 0
+        },
+        "delivery": {
+            "delivery_id": "DL00804",
+            "order_id": "O00015",
+            "driver_id": "D052",
+            "vehicle_id": "V097",
+            "hub_id": "H03",
+            "dispatch_time": "2025-11-09 05:43:00",
+            "delivery_completed_at": "2025-11-09 09:20:46.099682",
+            "delivery_status": "OnTime",
+            "route_distance_km": 9.3,
+            "manual_route_override_count": 1,
+            "proof_of_completion_missing": 0,
+            "customer_rating_post_delivery": 3.94,
+            "fuel_or_charge_cost": 9.13,
+            "failed_delivery_flag": 0,
+            "delayed_delivery_flag": 0,
+            "route_override_flag": 1
+        },
+        "driver": {
+            "base_zone": "Riverside",
+            "employment_type": "FullTime",
+            "years_experience": 8,
+            "training_score": 71.7,
+            "driver_rating": 3.39,
+            "shift_preference": "Morning",
+            "active_flag": 1
+        },
+        "vehicle": {
+            "vehicle_type": "EV",
+            "assigned_zone": "Ctr",
+            "commission_date": "2024-11-12 12:56:00",
+            "battery_health_pct": 92.1,
+            "odometer_km": 18680,
+            "maintenance_status": "Active",
+            "telematics_version": "v2.1"
+        },
+        "hub": {
+            "hub_name": "East Dock",
+            "zone": "East",
+            "hub_type": "Warehouse",
+            "capacity_score": 74
+        },
+        "complaints": [],
+        "incidents": [
+            {
+                "incident_id": "I0190",
+                "delivery_id": "DL00804",
+                "incident_type": "ProofMissing",
+                "reported_at": "2025-11-09 06:08:00",
+                "severity": "Medium",
+                "resolution_status": "Closed",
+                "resolved_hours": 7.2
+            },
+            {
+                "incident_id": "I0275",
+                "delivery_id": "DL00804",
+                "incident_type": "RouteDeviation",
+                "reported_at": "2025-11-09 06:06:00",
+                "severity": "Low",
+                "resolution_status": "Closed",
+                "resolved_hours": 16.9
+            }
+        ],
+        "app_events": [],
+        "risk_flags": {
+            "failed_delivery": false,
+            "delayed_delivery": false,
+            "has_complaint": false,
+            "has_incident": true,
+            "route_override_used": true,
+            "low_rating": false
+        }
+    },
+    {
+        "order_id": "O00016",
+        "customer": {
+            "customer_id": "C0022",
+            "customer_type": "Consumer",
+            "home_zone": "RiverSide",
+            "loyalty_tier": null
+        },
+        "order": {
+            "order_id": "O00016",
+            "customer_id": "C0022",
+            "service_type": "Parcel",
+            "order_created_at": "2025-07-29 11:51:00",
+            "promised_window_hours": 6,
+            "pickup_zone": "Central",
+            "dropoff_zone": "Ctr",
+            "priority_level": "Medium",
+            "order_value": 92.66,
+            "booking_channel": "App",
+            "special_handling_flag": 0
+        },
+        "delivery": {
+            "delivery_id": "DL00660",
+            "order_id": "O00016",
+            "driver_id": "D008",
+            "vehicle_id": "V001",
+            "hub_id": "H02",
+            "dispatch_time": "2025-07-29 13:52:00",
+            "delivery_completed_at": "2025-07-29 17:01:03.042495",
+            "delivery_status": "OnTime",
+            "route_distance_km": 16.1,
+            "manual_route_override_count": 2,
+            "proof_of_completion_missing": 0,
+            "customer_rating_post_delivery": 3.36,
+            "fuel_or_charge_cost": 14.03,
+            "failed_delivery_flag": 0,
+            "delayed_delivery_flag": 0,
+            "route_override_flag": 1
+        },
+        "driver": {
+            "base_zone": "SOUTH",
+            "employment_type": "FullTime",
+            "years_experience": 9,
+            "training_score": 84.1,
+            "driver_rating": 3.88,
+            "shift_preference": "Morning",
+            "active_flag": 1
+        },
+        "vehicle": {
+            "vehicle_type": "EV",
+            "assigned_zone": "North",
+            "commission_date": "2024-12-28 23:48:00",
+            "battery_health_pct": 71.8,
+            "odometer_km": 56928,
+            "maintenance_status": "Active",
+            "telematics_version": "v2.2"
+        },
+        "hub": {
+            "hub_name": "South Link",
+            "zone": "South",
+            "hub_type": "Dispatch",
+            "capacity_score": 78
+        },
+        "complaints": [],
+        "incidents": [],
+        "app_events": [
+            {
+                "event_id": "AE00046",
+                "customer_id": "C0531",
+                "order_id": "O00016",
+                "event_timestamp": "2024-10-30 13:13:00",
+                "event_type": "search_route",
+                "session_id": "S55883",
+                "device_type": "Web",
+                "zone_context": "WEST",
+                "api_latency_ms": 326,
+                "success_flag": 1,
+                "app_failure_flag": 0
+            }
+        ],
+        "risk_flags": {
+            "failed_delivery": false,
+            "delayed_delivery": false,
+            "has_complaint": false,
+            "has_incident": false,
+            "route_override_used": true,
+            "low_rating": false
+        }
+    },
+    {
+        "order_id": "O00017",
+        "customer": {
+            "customer_id": "C0499",
+            "customer_type": "Consumer",
+            "home_zone": "Ctr",
+            "loyalty_tier": null
+        },
+        "order": {
+            "order_id": "O00017",
+            "customer_id": "C0499",
+            "service_type": "Parcel",
+            "order_created_at": "2025-05-27 09:12:00",
+            "promised_window_hours": 24,
+            "pickup_zone": "AIRPORT",
+            "dropoff_zone": "South",
+            "priority_level": "Low",
+            "order_value": 60.9,
+            "booking_channel": "App",
+            "special_handling_flag": 0
+        },
+        "delivery": {
+            "delivery_id": "DL00672",
+            "order_id": "O00017",
+            "driver_id": "D108",
+            "vehicle_id": "V030",
+            "hub_id": "H02",
+            "dispatch_time": "2025-05-27 11:38:00",
+            "delivery_completed_at": "2025-05-28 08:21:51.612170",
+            "delivery_status": "OnTime",
+            "route_distance_km": 35.33,
+            "manual_route_override_count": 5,
+            "proof_of_completion_missing": 0,
+            "customer_rating_post_delivery": 4.94,
+            "fuel_or_charge_cost": 19.77,
+            "failed_delivery_flag": 0,
+            "delayed_delivery_flag": 0,
+            "route_override_flag": 1
+        },
+        "driver": {
+            "base_zone": "South",
+            "employment_type": "FullTime",
+            "years_experience": 10,
+            "training_score": 70.6,
+            "driver_rating": 4.33,
+            "shift_preference": "Morning",
+            "active_flag": 1
+        },
+        "vehicle": {
+            "vehicle_type": "CargoVan",
+            "assigned_zone": "North",
+            "commission_date": "2025-09-14 07:20:00",
+            "battery_health_pct": 78.0,
+            "odometer_km": 134360,
+            "maintenance_status": "Active",
+            "telematics_version": "v2.1"
+        },
+        "hub": {
+            "hub_name": "South Link",
+            "zone": "South",
+            "hub_type": "Dispatch",
+            "capacity_score": 78
+        },
+        "complaints": [],
+        "incidents": [
+            {
+                "incident_id": "I0071",
+                "delivery_id": "DL00672",
+                "incident_type": "ProofMissing",
+                "reported_at": "2025-05-27 14:37:00",
+                "severity": "Critical",
+                "resolution_status": "Closed",
+                "resolved_hours": 8.2
+            }
+        ],
+        "app_events": [
+            {
+                "event_id": "AE00150",
+                "customer_id": "C0207",
+                "order_id": "O00017",
+                "event_timestamp": "2025-12-02 08:49:00",
+                "event_type": "cancel_attempt",
+                "session_id": "S30266",
+                "device_type": "Android",
+                "zone_context": "SOUTH",
+                "api_latency_ms": 118,
+                "success_flag": 1,
+                "app_failure_flag": 0
+            }
+        ],
+        "risk_flags": {
+            "failed_delivery": false,
+            "delayed_delivery": false,
+            "has_complaint": false,
+            "has_incident": true,
+            "route_override_used": true,
+            "low_rating": false
+        }
+    },
+    {
+        "order_id": "O00018",
+        "customer": {
+            "customer_id": "C0506",
+            "customer_type": "Enterprise",
+            "home_zone": "Airport",
+            "loyalty_tier": null
+        },
+        "order": {
+            "order_id": "O00018",
+            "customer_id": "C0506",
+            "service_type": "Passenger",
+            "order_created_at": "2024-03-08 22:19:00",
+            "promised_window_hours": 6,
+            "pickup_zone": "NORTH",
+            "dropoff_zone": "Riverside",
+            "priority_level": "High",
+            "order_value": 121.11,
+            "booking_channel": "Phone",
+            "special_handling_flag": 0
+        },
+        "delivery": {
+            "delivery_id": "DL00902",
+            "order_id": "O00018",
+            "driver_id": "D015",
+            "vehicle_id": "V047",
+            "hub_id": "H06",
+            "dispatch_time": "2024-03-08 23:03:00",
+            "delivery_completed_at": "2024-03-09 02:59:39.833152",
+            "delivery_status": "OnTime",
+            "route_distance_km": 17.27,
+            "manual_route_override_count": 0,
+            "proof_of_completion_missing": 0,
+            "customer_rating_post_delivery": 5.0,
+            "fuel_or_charge_cost": 12.37,
+            "failed_delivery_flag": 0,
+            "delayed_delivery_flag": 0,
+            "route_override_flag": 0
+        },
+        "driver": {
+            "base_zone": "East",
+            "employment_type": "FullTime",
+            "years_experience": 11,
+            "training_score": 85.1,
+            "driver_rating": 4.34,
+            "shift_preference": "Morning",
+            "active_flag": 1
+        },
+        "vehicle": {
+            "vehicle_type": "EV",
+            "assigned_zone": "Ctr",
+            "commission_date": "2025-02-15 14:49:00",
+            "battery_health_pct": 93.7,
+            "odometer_km": 134347,
+            "maintenance_status": "Scheduled",
+            "telematics_version": "v2.2"
+        },
+        "hub": {
+            "hub_name": "Airport Hub",
+            "zone": "Airport",
+            "hub_type": "Dispatch",
+            "capacity_score": 71
+        },
+        "complaints": [],
+        "incidents": [],
+        "app_events": [],
+        "risk_flags": {
+            "failed_delivery": false,
+            "delayed_delivery": false,
+            "has_complaint": false,
+            "has_incident": false,
+            "route_override_used": false,
+            "low_rating": false
+        }
+    },
+    {
+        "order_id": "O00019",
+        "customer": {
+            "customer_id": "C0425",
+            "customer_type": "Consumer",
+            "home_zone": "Riverside",
+            "loyalty_tier": null
+        },
+        "order": {
+            "order_id": "O00019",
+            "customer_id": "C0425",
+            "service_type": "Passenger",
+            "order_created_at": "2024-03-31 07:18:00",
+            "promised_window_hours": 6,
+            "pickup_zone": "North",
+            "dropoff_zone": "CENTRAL",
+            "priority_level": "Low",
+            "order_value": 56.26,
+            "booking_channel": "Phone",
+            "special_handling_flag": 0
+        },
+        "delivery": {
+            "delivery_id": "DL00109",
+            "order_id": "O00019",
+            "driver_id": "D014",
+            "vehicle_id": "V083",
+            "hub_id": "H05",
+            "dispatch_time": "2024-03-31 09:02:00",
+            "delivery_completed_at": "2024-03-31 12:20:28.945640",
+            "delivery_status": "OnTime",
+            "route_distance_km": 16.7,
+            "manual_route_override_count": 1,
+            "proof_of_completion_missing": 0,
+            "customer_rating_post_delivery": 3.52,
+            "fuel_or_charge_cost": 16.91,
+            "failed_delivery_flag": 0,
+            "delayed_delivery_flag": 0,
+            "route_override_flag": 1
+        },
+        "driver": {
+            "base_zone": "NORTH",
+            "employment_type": "FullTime",
+            "years_experience": 6,
+            "training_score": 76.1,
+            "driver_rating": 4.7,
+            "shift_preference": "Evening",
+            "active_flag": 1
+        },
+        "vehicle": {
+            "vehicle_type": "CargoVan",
+            "assigned_zone": "NORTH",
+            "commission_date": "2024-04-11 18:04:00",
+            "battery_health_pct": 79.3,
+            "odometer_km": 42073,
+            "maintenance_status": "Active",
+            "telematics_version": "v2.2"
+        },
+        "hub": {
+            "hub_name": "Central Core",
+            "zone": "Central",
+            "hub_type": "Control",
+            "capacity_score": 88
+        },
+        "complaints": [],
+        "incidents": [],
+        "app_events": [],
+        "risk_flags": {
+            "failed_delivery": false,
+            "delayed_delivery": false,
+            "has_complaint": false,
+            "has_incident": false,
+            "route_override_used": true,
+            "low_rating": false
+        }
+    },
+    {
+        "order_id": "O00020",
+        "customer": {
+            "customer_id": "C0249",
+            "customer_type": "Consumer",
+            "home_zone": "WEST",
+            "loyalty_tier": null
+        },
+        "order": {
+            "order_id": "O00020",
+            "customer_id": "C0249",
+            "service_type": "Retail",
+            "order_created_at": "2024-05-09 22:25:00",
+            "promised_window_hours": 2,
+            "pickup_zone": "West",
+            "dropoff_zone": "AIRPORT",
+            "priority_level": "Medium",
+            "order_value": 100.78,
+            "booking_channel": "App",
+            "special_handling_flag": 0
+        },
+        "delivery": {
+            "delivery_id": "DL00752",
+            "order_id": "O00020",
+            "driver_id": "D069",
+            "vehicle_id": "V013",
+            "hub_id": "H01",
+            "dispatch_time": "2024-05-09 23:04:00",
+            "delivery_completed_at": "2024-05-09 22:49:00.000000",
+            "delivery_status": "OnTime",
+            "route_distance_km": 12.27,
+            "manual_route_override_count": 1,
+            "proof_of_completion_missing": 0,
+            "customer_rating_post_delivery": 4.33,
+            "fuel_or_charge_cost": 8.63,
+            "failed_delivery_flag": 0,
+            "delayed_delivery_flag": 0,
+            "route_override_flag": 1
+        },
+        "driver": {
+            "base_zone": "NORTH",
+            "employment_type": "PartTime",
+            "years_experience": 2,
+            "training_score": 61.5,
+            "driver_rating": 5.0,
+            "shift_preference": "Evening",
+            "active_flag": 0
+        },
+        "vehicle": {
+            "vehicle_type": "CargoVan",
+            "assigned_zone": "WEST",
+            "commission_date": "2025-07-17 18:07:00",
+            "battery_health_pct": 68.3,
+            "odometer_km": 153106,
+            "maintenance_status": "Scheduled",
+            "telematics_version": "v2.0"
+        },
+        "hub": {
+            "hub_name": "North Exchange",
+            "zone": "North",
+            "hub_type": "Dispatch",
+            "capacity_score": 82
+        },
+        "complaints": [],
+        "incidents": [],
+        "app_events": [
+            {
+                "event_id": "AE00147",
+                "customer_id": "C0128",
+                "order_id": "O00020",
+                "event_timestamp": "2024-09-28 14:16:00",
+                "event_type": "track_order",
+                "session_id": "S54633",
+                "device_type": "iOS",
+                "zone_context": "CENTRAL",
+                "api_latency_ms": 836,
+                "success_flag": 1,
+                "app_failure_flag": 0
+            }
+        ],
+        "risk_flags": {
+            "failed_delivery": false,
+            "delayed_delivery": false,
+            "has_complaint": false,
+            "has_incident": false,
+            "route_override_used": true,
+            "low_rating": false
+        }
+    },
+    {
+        "order_id": "O00021",
+        "customer": {
+            "customer_id": "C0218",
+            "customer_type": "Consumer",
+            "home_zone": "CENTRAL",
+            "loyalty_tier": null
+        },
+        "order": {
+            "order_id": "O00021",
+            "customer_id": "C0218",
+            "service_type": "Passenger",
+            "order_created_at": "2024-10-16 11:25:00",
+            "promised_window_hours": 2,
+            "pickup_zone": "WEST",
+            "dropoff_zone": "NORTH",
+            "priority_level": "Medium",
+            "order_value": 49.99,
+            "booking_channel": "Web",
+            "special_handling_flag": 0
+        },
+        "delivery": {
+            "delivery_id": "DL00141",
+            "order_id": "O00021",
+            "driver_id": "D166",
+            "vehicle_id": "V094",
+            "hub_id": "H04",
+            "dispatch_time": "2024-10-16 12:41:00",
+            "delivery_completed_at": "2024-10-16 12:59:34.243920",
+            "delivery_status": "OnTime",
+            "route_distance_km": 10.45,
+            "manual_route_override_count": 1,
+            "proof_of_completion_missing": 0,
+            "customer_rating_post_delivery": 4.77,
+            "fuel_or_charge_cost": 7.89,
+            "failed_delivery_flag": 0,
+            "delayed_delivery_flag": 0,
+            "route_override_flag": 1
+        },
+        "driver": {
+            "base_zone": "West",
+            "employment_type": "PartTime",
+            "years_experience": 7,
+            "training_score": 74.6,
+            "driver_rating": 4.07,
+            "shift_preference": "Night",
+            "active_flag": 1
+        },
+        "vehicle": {
+            "vehicle_type": "CargoVan",
+            "assigned_zone": "CENTRAL",
+            "commission_date": "2025-05-22 02:15:00",
+            "battery_health_pct": 65.9,
+            "odometer_km": 159262,
+            "maintenance_status": "Scheduled",
+            "telematics_version": "v1.9"
+        },
+        "hub": {
+            "hub_name": "West Gate",
+            "zone": "West",
+            "hub_type": "Dispatch",
+            "capacity_score": 69
+        },
+        "complaints": [],
+        "incidents": [],
+        "app_events": [
+            {
+                "event_id": "AE00119",
+                "customer_id": "C0153",
+                "order_id": "O00021",
+                "event_timestamp": "2024-01-13 16:25:00",
+                "event_type": "track_order",
+                "session_id": "S89481",
+                "device_type": "Web",
+                "zone_context": "north",
+                "api_latency_ms": 628,
+                "success_flag": 1,
+                "app_failure_flag": 0
+            }
+        ],
+        "risk_flags": {
+            "failed_delivery": false,
+            "delayed_delivery": false,
+            "has_complaint": false,
+            "has_incident": false,
+            "route_override_used": true,
+            "low_rating": false
+        }
+    },
+    {
+        "order_id": "O00022",
+        "customer": {
+            "customer_id": "C0594",
+            "customer_type": "Consumer",
+            "home_zone": "East",
+            "loyalty_tier": null
+        },
+        "order": {
+            "order_id": "O00022",
+            "customer_id": "C0594",
+            "service_type": "Retail",
+            "order_created_at": "2025-04-20 20:56:00",
+            "promised_window_hours": 12,
+            "pickup_zone": "RiverSide",
+            "dropoff_zone": "CENTRAL",
+            "priority_level": "Medium",
+            "order_value": 134.88,
+            "booking_channel": "Phone",
+            "special_handling_flag": 0
+        },
+        "delivery": {
+            "delivery_id": "DL00691",
+            "order_id": "O00022",
+            "driver_id": "D055",
+            "vehicle_id": "V091",
+            "hub_id": "H01",
+            "dispatch_time": "2025-04-20 21:40:00",
+            "delivery_completed_at": "2025-04-21 17:33:54.635329",
+            "delivery_status": "Delayed",
+            "route_distance_km": 4.45,
+            "manual_route_override_count": 0,
+            "proof_of_completion_missing": 0,
+            "customer_rating_post_delivery": 4.36,
+            "fuel_or_charge_cost": 13.49,
+            "failed_delivery_flag": 0,
+            "delayed_delivery_flag": 1,
+            "route_override_flag": 0
+        },
+        "driver": {
+            "base_zone": "Central",
+            "employment_type": "FullTime",
+            "years_experience": 15,
+            "training_score": 90.5,
+            "driver_rating": 5.0,
+            "shift_preference": "Flexible",
+            "active_flag": 1
+        },
+        "vehicle": {
+            "vehicle_type": "Hybrid",
+            "assigned_zone": "EAST",
+            "commission_date": "2025-08-24 05:20:00",
+            "battery_health_pct": 58.5,
+            "odometer_km": 172956,
+            "maintenance_status": "Active",
+            "telematics_version": "v1.9"
+        },
+        "hub": {
+            "hub_name": "North Exchange",
+            "zone": "North",
+            "hub_type": "Dispatch",
+            "capacity_score": 82
+        },
+        "complaints": [],
+        "incidents": [],
+        "app_events": [],
+        "risk_flags": {
+            "failed_delivery": false,
+            "delayed_delivery": true,
+            "has_complaint": false,
+            "has_incident": false,
+            "route_override_used": false,
+            "low_rating": false
+        }
+    },
+    {
+        "order_id": "O00023",
+        "customer": {
+            "customer_id": "C0077",
+            "customer_type": "SME",
+            "home_zone": "NORTH",
+            "loyalty_tier": null
+        },
+        "order": {
+            "order_id": "O00023",
+            "customer_id": "C0077",
+            "service_type": "Passenger",
+            "order_created_at": "2025-10-05 04:59:00",
+            "promised_window_hours": 4,
+            "pickup_zone": "north",
+            "dropoff_zone": "north",
+            "priority_level": "Medium",
+            "order_value": 122.25,
+            "booking_channel": "App",
+            "special_handling_flag": 0
+        },
+        "delivery": {
+            "delivery_id": "DL00831",
+            "order_id": "O00023",
+            "driver_id": "D133",
+            "vehicle_id": "V053",
+            "hub_id": "H08",
+            "dispatch_time": "2025-10-05 05:51:00",
+            "delivery_completed_at": "2025-10-06 04:17:27.447541",
+            "delivery_status": "Failed",
+            "route_distance_km": 15.56,
+            "manual_route_override_count": 0,
+            "proof_of_completion_missing": 1,
+            "customer_rating_post_delivery": 2.38,
+            "fuel_or_charge_cost": 10.87,
+            "failed_delivery_flag": 1,
+            "delayed_delivery_flag": 0,
+            "route_override_flag": 0
+        },
+        "driver": {
+            "base_zone": "South",
+            "employment_type": "Contract",
+            "years_experience": 12,
+            "training_score": 88.2,
+            "driver_rating": 3.99,
+            "shift_preference": "Flexible",
+            "active_flag": 1
+        },
+        "vehicle": {
+            "vehicle_type": "CargoVan",
+            "assigned_zone": "WEST",
+            "commission_date": "2024-04-23 20:57:00",
+            "battery_health_pct": 73.7,
+            "odometer_km": 122638,
+            "maintenance_status": "Scheduled",
+            "telematics_version": "v2.0"
+        },
+        "hub": {
+            "hub_name": "Midtown Relay",
+            "zone": "Central",
+            "hub_type": "Charging",
+            "capacity_score": 63
+        },
+        "complaints": [
+            {
+                "complaint_id": "CP0124",
+                "customer_id": "C0077",
+                "order_id": "O00023",
+                "complaint_type": "SupportExperience",
+                "channel": "Phone",
+                "severity": "Low",
+                "created_at": "2025-10-16 04:59:00",
+                "status": "Resolved",
+                "resolution_days": 7,
+                "compensation_amount": 0.0
+            }
+        ],
+        "incidents": [],
+        "app_events": [],
+        "risk_flags": {
+            "failed_delivery": true,
+            "delayed_delivery": false,
+            "has_complaint": true,
+            "has_incident": false,
+            "route_override_used": false,
+            "low_rating": true
+        }
+    },
+    {
+        "order_id": "O00024",
+        "customer": {
+            "customer_id": "C0397",
+            "customer_type": "Consumer",
+            "home_zone": "WEST",
+            "loyalty_tier": null
+        },
+        "order": {
+            "order_id": "O00024",
+            "customer_id": "C0397",
+            "service_type": "Passenger",
+            "order_created_at": "2024-10-10 05:01:00",
+            "promised_window_hours": 6,
+            "pickup_zone": "South",
+            "dropoff_zone": "Riverside",
+            "priority_level": "High",
+            "order_value": 132.2,
+            "booking_channel": "App",
+            "special_handling_flag": 1
+        },
+        "delivery": {
+            "delivery_id": "DL00724",
+            "order_id": "O00024",
+            "driver_id": "D003",
+            "vehicle_id": "V042",
+            "hub_id": "H01",
+            "dispatch_time": "2024-10-10 07:43:00",
+            "delivery_completed_at": "2024-10-10 10:21:10.389885",
+            "delivery_status": "OnTime",
+            "route_distance_km": 17.9,
+            "manual_route_override_count": 0,
+            "proof_of_completion_missing": 0,
+            "customer_rating_post_delivery": 4.76,
+            "fuel_or_charge_cost": 14.39,
+            "failed_delivery_flag": 0,
+            "delayed_delivery_flag": 0,
+            "route_override_flag": 0
+        },
+        "driver": {
+            "base_zone": "AIRPORT",
+            "employment_type": "FullTime",
+            "years_experience": 11,
+            "training_score": 96.5,
+            "driver_rating": 5.0,
+            "shift_preference": "Evening",
+            "active_flag": 1
+        },
+        "vehicle": {
+            "vehicle_type": "EV",
+            "assigned_zone": "East",
+            "commission_date": "2025-06-21 07:06:00",
+            "battery_health_pct": 80.5,
+            "odometer_km": 215870,
+            "maintenance_status": "InRepair",
+            "telematics_version": "v1.9"
+        },
+        "hub": {
+            "hub_name": "North Exchange",
+            "zone": "North",
+            "hub_type": "Dispatch",
+            "capacity_score": 82
+        },
+        "complaints": [],
+        "incidents": [
+            {
+                "incident_id": "I0016",
+                "delivery_id": "DL00724",
+                "incident_type": "AppSyncError",
+                "reported_at": "2024-10-10 08:26:00",
+                "severity": "Low",
+                "resolution_status": "PendingVendor",
+                "resolved_hours": 18.7
+            }
+        ],
+        "app_events": [],
+        "risk_flags": {
+            "failed_delivery": false,
+            "delayed_delivery": false,
+            "has_complaint": false,
+            "has_incident": true,
+            "route_override_used": false,
+            "low_rating": false
+        }
+    },
+    {
+        "order_id": "O00025",
+        "customer": {
+            "customer_id": "C0297",
+            "customer_type": "Consumer",
+            "home_zone": "WEST",
+            "loyalty_tier": null
+        },
+        "order": {
+            "order_id": "O00025",
+            "customer_id": "C0297",
+            "service_type": "Passenger",
+            "order_created_at": "2025-01-10 21:51:00",
+            "promised_window_hours": 6,
+            "pickup_zone": "North",
+            "dropoff_zone": "RiverSide",
+            "priority_level": "Critical",
+            "order_value": 66.51,
+            "booking_channel": "App",
+            "special_handling_flag": 0
+        },
+        "delivery": {
+            "delivery_id": "DL00204",
+            "order_id": "O00025",
+            "driver_id": "D108",
+            "vehicle_id": "V062",
+            "hub_id": "H08",
+            "dispatch_time": "2025-01-10 22:15:00",
+            "delivery_completed_at": "2025-01-11 05:19:27.680020",
+            "delivery_status": "OnTime",
+            "route_distance_km": 11.32,
+            "manual_route_override_count": 1,
+            "proof_of_completion_missing": 0,
+            "customer_rating_post_delivery": 4.64,
+            "fuel_or_charge_cost": 15.67,
+            "failed_delivery_flag": 0,
+            "delayed_delivery_flag": 0,
+            "route_override_flag": 1
+        },
+        "driver": {
+            "base_zone": "South",
+            "employment_type": "FullTime",
+            "years_experience": 10,
+            "training_score": 70.6,
+            "driver_rating": 4.33,
+            "shift_preference": "Morning",
+            "active_flag": 1
+        },
+        "vehicle": {
+            "vehicle_type": "Hybrid",
+            "assigned_zone": "North",
+            "commission_date": "2024-02-13 22:26:00",
+            "battery_health_pct": 89.9,
+            "odometer_km": 113343,
+            "maintenance_status": "Active",
+            "telematics_version": "v2.0"
+        },
+        "hub": {
+            "hub_name": "Midtown Relay",
+            "zone": "Central",
+            "hub_type": "Charging",
+            "capacity_score": 63
+        },
+        "complaints": [],
+        "incidents": [],
+        "app_events": [],
+        "risk_flags": {
+            "failed_delivery": false,
+            "delayed_delivery": false,
+            "has_complaint": false,
+            "has_incident": false,
+            "route_override_used": true,
+            "low_rating": false
+        }
+    },
+    {
+        "order_id": "O00026",
+        "customer": {
+            "customer_id": "C0193",
+            "customer_type": "Consumer",
+            "home_zone": "South",
+            "loyalty_tier": null
+        },
+        "order": {
+            "order_id": "O00026",
+            "customer_id": "C0193",
+            "service_type": "Parcel",
+            "order_created_at": "2025-11-10 22:22:00",
+            "promised_window_hours": 24,
+            "pickup_zone": "East",
+            "dropoff_zone": "West",
+            "priority_level": "High",
+            "order_value": 51.09,
+            "booking_channel": "App",
+            "special_handling_flag": 0
+        },
+        "delivery": {},
+        "driver": {},
+        "vehicle": {},
+        "hub": {},
+        "complaints": [],
+        "incidents": [],
+        "app_events": [
+            {
+                "event_id": "AE00481",
+                "customer_id": "C0120",
+                "order_id": "O00026",
+                "event_timestamp": "2025-02-09 09:36:00",
+                "event_type": "eta_refresh",
+                "session_id": "S31920",
+                "device_type": "iOS",
+                "zone_context": "West",
+                "api_latency_ms": 486,
+                "success_flag": 1,
+                "app_failure_flag": 0
+            }
+        ],
+        "risk_flags": {
+            "failed_delivery": false,
+            "delayed_delivery": false,
+            "has_complaint": false,
+            "has_incident": false,
+            "route_override_used": false,
+            "low_rating": false
+        }
+    },
+    {
+        "order_id": "O00027",
+        "customer": {
+            "customer_id": "C0024",
+            "customer_type": "Consumer",
+            "home_zone": "WEST",
+            "loyalty_tier": null
+        },
+        "order": {
+            "order_id": "O00027",
+            "customer_id": "C0024",
+            "service_type": "Parcel",
+            "order_created_at": "2025-02-26 00:42:00",
+            "promised_window_hours": 4,
+            "pickup_zone": "Riverside",
+            "dropoff_zone": "north",
+            "priority_level": "Medium",
+            "order_value": 96.62,
+            "booking_channel": "App",
+            "special_handling_flag": 0
+        },
+        "delivery": {
+            "delivery_id": "DL00700",
+            "order_id": "O00027",
+            "driver_id": "D099",
+            "vehicle_id": "V115",
+            "hub_id": "H06",
+            "dispatch_time": "2025-02-26 02:22:00",
+            "delivery_completed_at": "2025-02-26 06:50:34.860335",
+            "delivery_status": "OnTime",
+            "route_distance_km": 8.6,
+            "manual_route_override_count": 1,
+            "proof_of_completion_missing": 0,
+            "customer_rating_post_delivery": 5.0,
+            "fuel_or_charge_cost": 9.3,
+            "failed_delivery_flag": 0,
+            "delayed_delivery_flag": 0,
+            "route_override_flag": 1
+        },
+        "driver": {
+            "base_zone": "NORTH",
+            "employment_type": "Contract",
+            "years_experience": 10,
+            "training_score": 82.7,
+            "driver_rating": 3.48,
+            "shift_preference": "Night",
+            "active_flag": 1
+        },
+        "vehicle": {
+            "vehicle_type": "Diesel",
+            "assigned_zone": "South",
+            "commission_date": "2024-05-10 17:28:00",
+            "battery_health_pct": 57.9,
+            "odometer_km": 85919,
+            "maintenance_status": "Active",
+            "telematics_version": "v2.2"
+        },
+        "hub": {
+            "hub_name": "Airport Hub",
+            "zone": "Airport",
+            "hub_type": "Dispatch",
+            "capacity_score": 71
+        },
+        "complaints": [],
+        "incidents": [],
+        "app_events": [],
+        "risk_flags": {
+            "failed_delivery": false,
+            "delayed_delivery": false,
+            "has_complaint": false,
+            "has_incident": false,
+            "route_override_used": true,
+            "low_rating": false
+        }
+    },
+    {
+        "order_id": "O00028",
+        "customer": {
+            "customer_id": "C0160",
+            "customer_type": "Consumer",
+            "home_zone": "SOUTH",
+            "loyalty_tier": null
+        },
+        "order": {
+            "order_id": "O00028",
+            "customer_id": "C0160",
+            "service_type": "Retail",
+            "order_created_at": "2025-12-21 22:29:00",
+            "promised_window_hours": 4,
+            "pickup_zone": "NORTH",
+            "dropoff_zone": "South",
+            "priority_level": "High",
+            "order_value": 59.44,
+            "booking_channel": "App",
+            "special_handling_flag": 0
+        },
+        "delivery": {},
+        "driver": {},
+        "vehicle": {},
+        "hub": {},
+        "complaints": [],
+        "incidents": [],
+        "app_events": [
+            {
+                "event_id": "AE00007",
+                "customer_id": "C0033",
+                "order_id": "O00028",
+                "event_timestamp": "2025-04-20 19:06:00",
+                "event_type": "chat_opened",
+                "session_id": "S79495",
+                "device_type": "Android",
+                "zone_context": "South",
+                "api_latency_ms": 169,
+                "success_flag": 1,
+                "app_failure_flag": 0
+            }
+        ],
+        "risk_flags": {
+            "failed_delivery": false,
+            "delayed_delivery": false,
+            "has_complaint": false,
+            "has_incident": false,
+            "route_override_used": false,
+            "low_rating": false
+        }
+    },
+    {
+        "order_id": "O00029",
+        "customer": {
+            "customer_id": "C0366",
+            "customer_type": "Consumer",
+            "home_zone": "South",
+            "loyalty_tier": null
+        },
+        "order": {
+            "order_id": "O00029",
+            "customer_id": "C0366",
+            "service_type": "Medical",
+            "order_created_at": "2024-09-11 12:22:00",
+            "promised_window_hours": 24,
+            "pickup_zone": "EAST",
+            "dropoff_zone": "Ctr",
+            "priority_level": "Medium",
+            "order_value": 190.94,
+            "booking_channel": "Web",
+            "special_handling_flag": 0
+        },
+        "delivery": {
+            "delivery_id": "DL00006",
+            "order_id": "O00029",
+            "driver_id": "D037",
+            "vehicle_id": "V098",
+            "hub_id": "H03",
+            "dispatch_time": "2024-09-11 12:40:00",
+            "delivery_completed_at": "2024-09-12 17:11:52.384869",
+            "delivery_status": "Delayed",
+            "route_distance_km": 13.84,
+            "manual_route_override_count": 0,
+            "proof_of_completion_missing": 0,
+            "customer_rating_post_delivery": 1.57,
+            "fuel_or_charge_cost": 9.58,
+            "failed_delivery_flag": 0,
+            "delayed_delivery_flag": 1,
+            "route_override_flag": 0
+        },
+        "driver": {
+            "base_zone": "north",
+            "employment_type": "PartTime",
+            "years_experience": 7,
+            "training_score": 63.9,
+            "driver_rating": 4.67,
+            "shift_preference": "Morning",
+            "active_flag": 1
+        },
+        "vehicle": {
+            "vehicle_type": "Diesel",
+            "assigned_zone": "WEST",
+            "commission_date": "2025-12-29 15:01:00",
+            "battery_health_pct": 69.7,
+            "odometer_km": 73011,
+            "maintenance_status": "Active",
+            "telematics_version": "v2.1"
+        },
+        "hub": {
+            "hub_name": "East Dock",
+            "zone": "East",
+            "hub_type": "Warehouse",
+            "capacity_score": 74
+        },
+        "complaints": [],
+        "incidents": [],
+        "app_events": [],
+        "risk_flags": {
+            "failed_delivery": false,
+            "delayed_delivery": true,
+            "has_complaint": false,
+            "has_incident": false,
+            "route_override_used": false,
+            "low_rating": true
+        }
+    },
+    {
+        "order_id": "O00030",
+        "customer": {
+            "customer_id": "C0406",
+            "customer_type": "Consumer",
+            "home_zone": "north",
+            "loyalty_tier": null
+        },
+        "order": {
+            "order_id": "O00030",
+            "customer_id": "C0406",
+            "service_type": "Medical",
+            "order_created_at": "2025-10-05 03:11:00",
+            "promised_window_hours": 12,
+            "pickup_zone": "north",
+            "dropoff_zone": "EAST",
+            "priority_level": "Low",
+            "order_value": 44.84,
+            "booking_channel": "App",
+            "special_handling_flag": 0
+        },
+        "delivery": {
+            "delivery_id": "DL00268",
+            "order_id": "O00030",
+            "driver_id": "D008",
+            "vehicle_id": "V056",
+            "hub_id": "H02",
+            "dispatch_time": "2025-10-05 03:47:00",
+            "delivery_completed_at": NaN,
+            "delivery_status": "OnTime",
+            "route_distance_km": 8.7,
+            "manual_route_override_count": 1,
+            "proof_of_completion_missing": 0,
+            "customer_rating_post_delivery": 3.88,
+            "fuel_or_charge_cost": 15.46,
+            "failed_delivery_flag": 0,
+            "delayed_delivery_flag": 0,
+            "route_override_flag": 1
+        },
+        "driver": {
+            "base_zone": "SOUTH",
+            "employment_type": "FullTime",
+            "years_experience": 9,
+            "training_score": 84.1,
+            "driver_rating": 3.88,
+            "shift_preference": "Morning",
+            "active_flag": 1
+        },
+        "vehicle": {
+            "vehicle_type": "EV",
+            "assigned_zone": "CENTRAL",
+            "commission_date": "2024-06-09 16:18:00",
+            "battery_health_pct": 78.4,
+            "odometer_km": 29849,
+            "maintenance_status": "Active",
+            "telematics_version": "v2.2"
+        },
+        "hub": {
+            "hub_name": "South Link",
+            "zone": "South",
+            "hub_type": "Dispatch",
+            "capacity_score": 78
+        },
+        "complaints": [],
+        "incidents": [],
+        "app_events": [
+            {
+                "event_id": "AE00597",
+                "customer_id": "C0514",
+                "order_id": "O00030",
+                "event_timestamp": "2024-12-02 18:45:00",
+                "event_type": "track_order",
+                "session_id": "S92720",
+                "device_type": "iOS",
+                "zone_context": "Riverside",
+                "api_latency_ms": 234,
+                "success_flag": 1,
+                "app_failure_flag": 0
+            }
+        ],
+        "risk_flags": {
+            "failed_delivery": false,
+            "delayed_delivery": false,
+            "has_complaint": false,
+            "has_incident": false,
+            "route_override_used": true,
+            "low_rating": false
+        }
+    },
+    {
+        "order_id": "O00031",
+        "customer": {
+            "customer_id": "C0573",
+            "customer_type": "SME",
+            "home_zone": "AIRPORT",
+            "loyalty_tier": null
+        },
+        "order": {
+            "order_id": "O00031",
+            "customer_id": "C0573",
+            "service_type": "Passenger",
+            "order_created_at": "2024-10-25 03:17:00",
+            "promised_window_hours": 24,
+            "pickup_zone": "EAST",
+            "dropoff_zone": "AIRPORT",
+            "priority_level": "Medium",
+            "order_value": 55.14,
+            "booking_channel": "App",
+            "special_handling_flag": 0
+        },
+        "delivery": {
+            "delivery_id": "DL00862",
+            "order_id": "O00031",
+            "driver_id": "D165",
+            "vehicle_id": "V037",
+            "hub_id": "H01",
+            "dispatch_time": "2024-10-25 04:57:00",
+            "delivery_completed_at": "2024-10-26 09:32:20.877141",
+            "delivery_status": "Failed",
+            "route_distance_km": 8.4,
+            "manual_route_override_count": 1,
+            "proof_of_completion_missing": 0,
+            "customer_rating_post_delivery": 1.41,
+            "fuel_or_charge_cost": 9.28,
+            "failed_delivery_flag": 1,
+            "delayed_delivery_flag": 0,
+            "route_override_flag": 1
+        },
+        "driver": {
+            "base_zone": "North",
+            "employment_type": "PartTime",
+            "years_experience": 10,
+            "training_score": 82.2,
+            "driver_rating": 3.89,
+            "shift_preference": "Night",
+            "active_flag": 1
+        },
+        "vehicle": {
+            "vehicle_type": "CargoVan",
+            "assigned_zone": "South",
+            "commission_date": "2025-06-13 23:43:00",
+            "battery_health_pct": 56.6,
+            "odometer_km": 52146,
+            "maintenance_status": "InRepair",
+            "telematics_version": "v1.9"
+        },
+        "hub": {
+            "hub_name": "North Exchange",
+            "zone": "North",
+            "hub_type": "Dispatch",
+            "capacity_score": 82
+        },
+        "complaints": [
+            {
+                "complaint_id": "CP0077",
+                "customer_id": "C0573",
+                "order_id": "O00031",
+                "complaint_type": "Billing",
+                "channel": "Email",
+                "severity": "High",
+                "created_at": "2024-11-02 03:17:00",
+                "status": "Resolved",
+                "resolution_days": 13,
+                "compensation_amount": 58.46
+            },
+            {
+                "complaint_id": "CP0279",
+                "customer_id": "C0573",
+                "order_id": "O00031",
+                "complaint_type": "Billing",
+                "channel": "App",
+                "severity": "Medium",
+                "created_at": "2024-10-27 03:17:00",
+                "status": "Resolved",
+                "resolution_days": 1,
+                "compensation_amount": 19.87
+            }
+        ],
+        "incidents": [],
+        "app_events": [
+            {
+                "event_id": "AE00161",
+                "customer_id": "C0308",
+                "order_id": "O00031",
+                "event_timestamp": "2024-06-16 16:40:00",
+                "event_type": "search_route",
+                "session_id": "S73430",
+                "device_type": "iOS",
+                "zone_context": "EAST",
+                "api_latency_ms": 635,
+                "success_flag": 1,
+                "app_failure_flag": 0
+            }
+        ],
+        "risk_flags": {
+            "failed_delivery": true,
+            "delayed_delivery": false,
+            "has_complaint": true,
+            "has_incident": false,
+            "route_override_used": true,
+            "low_rating": true
+        }
+    },
+    {
+        "order_id": "O00032",
+        "customer": {
+            "customer_id": "C0297",
+            "customer_type": "Consumer",
+            "home_zone": "WEST",
+            "loyalty_tier": null
+        },
+        "order": {
+            "order_id": "O00032",
+            "customer_id": "C0297",
+            "service_type": "Passenger",
+            "order_created_at": "2025-09-15 23:14:00",
+            "promised_window_hours": 1,
+            "pickup_zone": "CENTRAL",
+            "dropoff_zone": "East",
+            "priority_level": "Medium",
+            "order_value": 126.43,
+            "booking_channel": "App",
+            "special_handling_flag": 1
+        },
+        "delivery": {
+            "delivery_id": "DL00193",
+            "order_id": "O00032",
+            "driver_id": "D017",
+            "vehicle_id": "V013",
+            "hub_id": "H08",
+            "dispatch_time": "2025-09-16 00:28:00",
+            "delivery_completed_at": "2025-09-15 23:38:00.000000",
+            "delivery_status": "OnTime",
+            "route_distance_km": 14.01,
+            "manual_route_override_count": 4,
+            "proof_of_completion_missing": 0,
+            "customer_rating_post_delivery": 3.54,
+            "fuel_or_charge_cost": 9.08,
+            "failed_delivery_flag": 0,
+            "delayed_delivery_flag": 0,
+            "route_override_flag": 1
+        },
+        "driver": {
+            "base_zone": "EAST",
+            "employment_type": "PartTime",
+            "years_experience": 1,
+            "training_score": NaN,
+            "driver_rating": 4.34,
+            "shift_preference": "Morning",
+            "active_flag": 1
+        },
+        "vehicle": {
+            "vehicle_type": "CargoVan",
+            "assigned_zone": "WEST",
+            "commission_date": "2025-07-17 18:07:00",
+            "battery_health_pct": 68.3,
+            "odometer_km": 153106,
+            "maintenance_status": "Scheduled",
+            "telematics_version": "v2.0"
+        },
+        "hub": {
+            "hub_name": "Midtown Relay",
+            "zone": "Central",
+            "hub_type": "Charging",
+            "capacity_score": 63
+        },
+        "complaints": [],
+        "incidents": [],
+        "app_events": [
+            {
+                "event_id": "AE00064",
+                "customer_id": "C0515",
+                "order_id": "O00032",
+                "event_timestamp": "2024-09-16 15:36:00",
+                "event_type": "track_order",
+                "session_id": "S99350",
+                "device_type": "Android",
+                "zone_context": "Central",
+                "api_latency_ms": 840,
+                "success_flag": 1,
+                "app_failure_flag": 0
+            },
+            {
+                "event_id": "AE00313",
+                "customer_id": "C0337",
+                "order_id": "O00032",
+                "event_timestamp": "2025-11-18 21:27:00",
+                "event_type": "track_order",
+                "session_id": "S88456",
+                "device_type": "Android",
+                "zone_context": "WEST",
+                "api_latency_ms": 400,
+                "success_flag": 1,
+                "app_failure_flag": 0
+            },
+            {
+                "event_id": "AE00528",
+                "customer_id": "C0502",
+                "order_id": "O00032",
+                "event_timestamp": "2025-02-28 15:15:00",
+                "event_type": "eta_refresh",
+                "session_id": "S61761",
+                "device_type": "Android",
+                "zone_context": "NORTH",
+                "api_latency_ms": 376,
+                "success_flag": 1,
+                "app_failure_flag": 0
+            }
+        ],
+        "risk_flags": {
+            "failed_delivery": false,
+            "delayed_delivery": false,
+            "has_complaint": false,
+            "has_incident": false,
+            "route_override_used": true,
+            "low_rating": false
+        }
+    },
+    {
+        "order_id": "O00033",
+        "customer": {
+            "customer_id": "C0471",
+            "customer_type": "Consumer",
+            "home_zone": "North",
+            "loyalty_tier": null
+        },
+        "order": {
+            "order_id": "O00033",
+            "customer_id": "C0471",
+            "service_type": "Retail",
+            "order_created_at": "2025-12-30 21:02:00",
+            "promised_window_hours": 6,
+            "pickup_zone": "NORTH",
+            "dropoff_zone": "East",
+            "priority_level": "Low",
+            "order_value": 36.7,
+            "booking_channel": "Phone",
+            "special_handling_flag": 1
+        },
+        "delivery": {
+            "delivery_id": "DL00792",
+            "order_id": "O00033",
+            "driver_id": "D106",
+            "vehicle_id": "V094",
+            "hub_id": "H08",
+            "dispatch_time": "2025-12-30 21:39:00",
+            "delivery_completed_at": "2025-12-31 14:37:51.118085",
+            "delivery_status": "Failed",
+            "route_distance_km": 14.69,
+            "manual_route_override_count": 1,
+            "proof_of_completion_missing": 0,
+            "customer_rating_post_delivery": 3.2,
+            "fuel_or_charge_cost": 16.8,
+            "failed_delivery_flag": 1,
+            "delayed_delivery_flag": 0,
+            "route_override_flag": 1
+        },
+        "driver": {
+            "base_zone": "Central",
+            "employment_type": "Contract",
+            "years_experience": 12,
+            "training_score": 71.9,
+            "driver_rating": 3.66,
+            "shift_preference": "Morning",
+            "active_flag": 1
+        },
+        "vehicle": {
+            "vehicle_type": "CargoVan",
+            "assigned_zone": "CENTRAL",
+            "commission_date": "2025-05-22 02:15:00",
+            "battery_health_pct": 65.9,
+            "odometer_km": 159262,
+            "maintenance_status": "Scheduled",
+            "telematics_version": "v1.9"
+        },
+        "hub": {
+            "hub_name": "Midtown Relay",
+            "zone": "Central",
+            "hub_type": "Charging",
+            "capacity_score": 63
+        },
+        "complaints": [],
+        "incidents": [],
+        "app_events": [
+            {
+                "event_id": "AE00116",
+                "customer_id": "C0237",
+                "order_id": "O00033",
+                "event_timestamp": "2024-07-16 05:19:00",
+                "event_type": "eta_refresh",
+                "session_id": "S56150",
+                "device_type": "iOS",
+                "zone_context": "Ctr",
+                "api_latency_ms": 422,
+                "success_flag": 1,
+                "app_failure_flag": 0
+            },
+            {
+                "event_id": "AE00186",
+                "customer_id": "C0297",
+                "order_id": "O00033",
+                "event_timestamp": "2024-01-09 21:50:00",
+                "event_type": "delivery_instruction_update",
+                "session_id": "S98196",
+                "device_type": "Web",
+                "zone_context": "AIRPORT",
+                "api_latency_ms": 811,
+                "success_flag": 1,
+                "app_failure_flag": 0
+            }
+        ],
+        "risk_flags": {
+            "failed_delivery": true,
+            "delayed_delivery": false,
+            "has_complaint": false,
+            "has_incident": false,
+            "route_override_used": true,
+            "low_rating": false
+        }
+    },
+    {
+        "order_id": "O00034",
+        "customer": {
+            "customer_id": "C0023",
+            "customer_type": "Consumer",
+            "home_zone": "South",
+            "loyalty_tier": null
+        },
+        "order": {
+            "order_id": "O00034",
+            "customer_id": "C0023",
+            "service_type": "Retail",
+            "order_created_at": "2025-02-18 01:38:00",
+            "promised_window_hours": 2,
+            "pickup_zone": "North",
+            "dropoff_zone": "South",
+            "priority_level": "Low",
+            "order_value": 40.88,
+            "booking_channel": "App",
+            "special_handling_flag": 0
+        },
+        "delivery": {},
+        "driver": {},
+        "vehicle": {},
+        "hub": {},
+        "complaints": [],
+        "incidents": [],
+        "app_events": [],
+        "risk_flags": {
+            "failed_delivery": false,
+            "delayed_delivery": false,
+            "has_complaint": false,
+            "has_incident": false,
+            "route_override_used": false,
+            "low_rating": false
+        }
+    },
+    {
+        "order_id": "O00035",
+        "customer": {
+            "customer_id": "C0524",
+            "customer_type": "Consumer",
+            "home_zone": "RiverSide",
+            "loyalty_tier": null
+        },
+        "order": {
+            "order_id": "O00035",
+            "customer_id": "C0524",
+            "service_type": "Business",
+            "order_created_at": "2024-06-14 13:12:00",
+            "promised_window_hours": 4,
+            "pickup_zone": "north",
+            "dropoff_zone": "CENTRAL",
+            "priority_level": "Medium",
+            "order_value": 209.07,
+            "booking_channel": "Web",
+            "special_handling_flag": 0
+        },
+        "delivery": {
+            "delivery_id": "DL00492",
+            "order_id": "O00035",
+            "driver_id": "D100",
+            "vehicle_id": "V108",
+            "hub_id": "H06",
+            "dispatch_time": "2024-06-14 15:50:00",
+            "delivery_completed_at": "2024-06-15 05:51:47.019652",
+            "delivery_status": "Failed",
+            "route_distance_km": 9.55,
+            "manual_route_override_count": 0,
+            "proof_of_completion_missing": 0,
+            "customer_rating_post_delivery": 1.99,
+            "fuel_or_charge_cost": 9.2,
+            "failed_delivery_flag": 1,
+            "delayed_delivery_flag": 0,
+            "route_override_flag": 0
+        },
+        "driver": {
+            "base_zone": "CENTRAL",
+            "employment_type": "FullTime",
+            "years_experience": 4,
+            "training_score": 62.0,
+            "driver_rating": 4.31,
+            "shift_preference": "Flexible",
+            "active_flag": 1
+        },
+        "vehicle": {
+            "vehicle_type": "Diesel",
+            "assigned_zone": "AIRPORT",
+            "commission_date": "2025-01-31 06:29:00",
+            "battery_health_pct": 54.6,
+            "odometer_km": 141290,
+            "maintenance_status": "InRepair",
+            "telematics_version": "v1.9"
+        },
+        "hub": {
+            "hub_name": "Airport Hub",
+            "zone": "Airport",
+            "hub_type": "Dispatch",
+            "capacity_score": 71
+        },
+        "complaints": [],
+        "incidents": [],
+        "app_events": [],
+        "risk_flags": {
+            "failed_delivery": true,
+            "delayed_delivery": false,
+            "has_complaint": false,
+            "has_incident": false,
+            "route_override_used": false,
+            "low_rating": true
+        }
+    },
+    {
+        "order_id": "O00036",
+        "customer": {
+            "customer_id": "C0126",
+            "customer_type": "Consumer",
+            "home_zone": "NORTH",
+            "loyalty_tier": null
+        },
+        "order": {
+            "order_id": "O00036",
+            "customer_id": "C0126",
+            "service_type": "Parcel",
+            "order_created_at": "2024-11-06 04:24:00",
+            "promised_window_hours": 4,
+            "pickup_zone": "Riverside",
+            "dropoff_zone": "North",
+            "priority_level": "Medium",
+            "order_value": 73.14,
+            "booking_channel": "App",
+            "special_handling_flag": 0
+        },
+        "delivery": {
+            "delivery_id": "DL00483",
+            "order_id": "O00036",
+            "driver_id": "D135",
+            "vehicle_id": "V017",
+            "hub_id": "H06",
+            "dispatch_time": "2024-11-06 05:51:00",
+            "delivery_completed_at": "2024-11-06 11:52:01.051436",
+            "delivery_status": "Delayed",
+            "route_distance_km": 8.41,
+            "manual_route_override_count": 0,
+            "proof_of_completion_missing": 1,
+            "customer_rating_post_delivery": 4.57,
+            "fuel_or_charge_cost": 9.29,
+            "failed_delivery_flag": 0,
+            "delayed_delivery_flag": 1,
+            "route_override_flag": 0
+        },
+        "driver": {
+            "base_zone": "Riverside",
+            "employment_type": "PartTime",
+            "years_experience": 2,
+            "training_score": 70.3,
+            "driver_rating": 4.4,
+            "shift_preference": "Flexible",
+            "active_flag": 1
+        },
+        "vehicle": {
+            "vehicle_type": "Hybrid",
+            "assigned_zone": "RiverSide",
+            "commission_date": "2024-04-23 12:54:00",
+            "battery_health_pct": 82.4,
+            "odometer_km": 169703,
+            "maintenance_status": "InRepair",
+            "telematics_version": "v2.2"
+        },
+        "hub": {
+            "hub_name": "Airport Hub",
+            "zone": "Airport",
+            "hub_type": "Dispatch",
+            "capacity_score": 71
+        },
+        "complaints": [],
+        "incidents": [],
+        "app_events": [],
+        "risk_flags": {
+            "failed_delivery": false,
+            "delayed_delivery": true,
+            "has_complaint": false,
+            "has_incident": false,
+            "route_override_used": false,
+            "low_rating": false
+        }
+    },
+    {
+        "order_id": "O00037",
+        "customer": {
+            "customer_id": "C0015",
+            "customer_type": "SME",
+            "home_zone": "SOUTH",
+            "loyalty_tier": null
+        },
+        "order": {
+            "order_id": "O00037",
+            "customer_id": "C0015",
+            "service_type": "Retail",
+            "order_created_at": "2024-02-10 17:19:00",
+            "promised_window_hours": 24,
+            "pickup_zone": "EAST",
+            "dropoff_zone": "Airport",
+            "priority_level": "Low",
+            "order_value": 119.31,
+            "booking_channel": "Phone",
+            "special_handling_flag": 0
+        },
+        "delivery": {},
+        "driver": {},
+        "vehicle": {},
+        "hub": {},
+        "complaints": [],
+        "incidents": [],
+        "app_events": [],
+        "risk_flags": {
+            "failed_delivery": false,
+            "delayed_delivery": false,
+            "has_complaint": false,
+            "has_incident": false,
+            "route_override_used": false,
+            "low_rating": false
+        }
+    },
+    {
+        "order_id": "O00038",
+        "customer": {
+            "customer_id": "C0142",
+            "customer_type": "Consumer",
+            "home_zone": "SOUTH",
+            "loyalty_tier": null
+        },
+        "order": {
+            "order_id": "O00038",
+            "customer_id": "C0142",
+            "service_type": "Retail",
+            "order_created_at": "2025-10-06 20:11:00",
+            "promised_window_hours": 2,
+            "pickup_zone": "Riverside",
+            "dropoff_zone": "EAST",
+            "priority_level": "Medium",
+            "order_value": 168.48,
+            "booking_channel": "Phone",
+            "special_handling_flag": 0
+        },
+        "delivery": {
+            "delivery_id": "DL00869",
+            "order_id": "O00038",
+            "driver_id": "D118",
+            "vehicle_id": "V119",
+            "hub_id": "H05",
+            "dispatch_time": "2025-10-06 20:46:00",
+            "delivery_completed_at": "2025-10-06 21:44:16.662558",
+            "delivery_status": "OnTime",
+            "route_distance_km": 9.15,
+            "manual_route_override_count": 2,
+            "proof_of_completion_missing": 0,
+            "customer_rating_post_delivery": 5.0,
+            "fuel_or_charge_cost": 10.32,
+            "failed_delivery_flag": 0,
+            "delayed_delivery_flag": 0,
+            "route_override_flag": 1
+        },
+        "driver": {
+            "base_zone": "NORTH",
+            "employment_type": "FullTime",
+            "years_experience": 1,
+            "training_score": 80.6,
+            "driver_rating": 4.88,
+            "shift_preference": "Night",
+            "active_flag": 1
+        },
+        "vehicle": {
+            "vehicle_type": "EV",
+            "assigned_zone": "RiverSide",
+            "commission_date": "2025-08-17 06:19:00",
+            "battery_health_pct": 67.6,
+            "odometer_km": 215407,
+            "maintenance_status": "InRepair",
+            "telematics_version": "v2.1"
+        },
+        "hub": {
+            "hub_name": "Central Core",
+            "zone": "Central",
+            "hub_type": "Control",
+            "capacity_score": 88
+        },
+        "complaints": [],
+        "incidents": [],
+        "app_events": [],
+        "risk_flags": {
+            "failed_delivery": false,
+            "delayed_delivery": false,
+            "has_complaint": false,
+            "has_incident": false,
+            "route_override_used": true,
+            "low_rating": false
+        }
+    },
+    {
+        "order_id": "O00039",
+        "customer": {
+            "customer_id": "C0351",
+            "customer_type": "Enterprise",
+            "home_zone": "CENTRAL",
+            "loyalty_tier": null
+        },
+        "order": {
+            "order_id": "O00039",
+            "customer_id": "C0351",
+            "service_type": "Parcel",
+            "order_created_at": "2025-08-01 07:36:00",
+            "promised_window_hours": 6,
+            "pickup_zone": "East",
+            "dropoff_zone": "RiverSide",
+            "priority_level": "Low",
+            "order_value": 54.85,
+            "booking_channel": "Web",
+            "special_handling_flag": 1
+        },
+        "delivery": {
+            "delivery_id": "DL00106",
+            "order_id": "O00039",
+            "driver_id": "D040",
+            "vehicle_id": "V015",
+            "hub_id": "H05",
+            "dispatch_time": "2025-08-01 08:30:00",
+            "delivery_completed_at": "2025-08-01 12:18:45.005907",
+            "delivery_status": "OnTime",
+            "route_distance_km": 18.02,
+            "manual_route_override_count": 0,
+            "proof_of_completion_missing": 0,
+            "customer_rating_post_delivery": 4.92,
+            "fuel_or_charge_cost": 15.57,
+            "failed_delivery_flag": 0,
+            "delayed_delivery_flag": 0,
+            "route_override_flag": 0
+        },
+        "driver": {
+            "base_zone": "Riverside",
+            "employment_type": "FullTime",
+            "years_experience": 7,
+            "training_score": 55.6,
+            "driver_rating": 4.4,
+            "shift_preference": "Night",
+            "active_flag": 1
+        },
+        "vehicle": {
+            "vehicle_type": "CargoVan",
+            "assigned_zone": "Airport",
+            "commission_date": "2024-06-02 13:54:00",
+            "battery_health_pct": 78.2,
+            "odometer_km": 67614,
+            "maintenance_status": "InRepair",
+            "telematics_version": "v1.9"
+        },
+        "hub": {
+            "hub_name": "Central Core",
+            "zone": "Central",
+            "hub_type": "Control",
+            "capacity_score": 88
+        },
+        "complaints": [],
+        "incidents": [],
+        "app_events": [],
+        "risk_flags": {
+            "failed_delivery": false,
+            "delayed_delivery": false,
+            "has_complaint": false,
+            "has_incident": false,
+            "route_override_used": false,
+            "low_rating": false
+        }
+    },
+    {
+        "order_id": "O00040",
+        "customer": {
+            "customer_id": "C0014",
+            "customer_type": "Consumer",
+            "home_zone": "North",
+            "loyalty_tier": null
+        },
+        "order": {
+            "order_id": "O00040",
+            "customer_id": "C0014",
+            "service_type": "Parcel",
+            "order_created_at": "2025-05-24 22:33:00",
+            "promised_window_hours": 1,
+            "pickup_zone": "North",
+            "dropoff_zone": "AIRPORT",
+            "priority_level": "Low",
+            "order_value": 74.65,
+            "booking_channel": "App",
+            "special_handling_flag": 0
+        },
+        "delivery": {},
+        "driver": {},
+        "vehicle": {},
+        "hub": {},
+        "complaints": [],
+        "incidents": [],
+        "app_events": [
+            {
+                "event_id": "AE00175",
+                "customer_id": "C0027",
+                "order_id": "O00040",
+                "event_timestamp": "2025-03-22 09:30:00",
+                "event_type": "chat_opened",
+                "session_id": "S27542",
+                "device_type": "iOS",
+                "zone_context": "North",
+                "api_latency_ms": 828,
+                "success_flag": 1,
+                "app_failure_flag": 0
+            }
+        ],
+        "risk_flags": {
+            "failed_delivery": false,
+            "delayed_delivery": false,
+            "has_complaint": false,
+            "has_incident": false,
+            "route_override_used": false,
+            "low_rating": false
+        }
+    },
+    {
+        "order_id": "O00041",
+        "customer": {
+            "customer_id": "C0243",
+            "customer_type": "Consumer",
+            "home_zone": "RiverSide",
+            "loyalty_tier": null
+        },
+        "order": {
+            "order_id": "O00041",
+            "customer_id": "C0243",
+            "service_type": "Retail",
+            "order_created_at": "2024-09-17 13:42:00",
+            "promised_window_hours": 12,
+            "pickup_zone": "RiverSide",
+            "dropoff_zone": "West",
+            "priority_level": "Low",
+            "order_value": 19.15,
+            "booking_channel": "App",
+            "special_handling_flag": 0
+        },
+        "delivery": {},
+        "driver": {},
+        "vehicle": {},
+        "hub": {},
+        "complaints": [
+            {
+                "complaint_id": "CP0296",
+                "customer_id": "C0243",
+                "order_id": "O00041",
+                "complaint_type": "MissedPickup",
+                "channel": "Phone",
+                "severity": "Medium",
+                "created_at": "2024-09-17 13:42:00",
+                "status": "Resolved",
+                "resolution_days": 1,
+                "compensation_amount": 6.59
+            }
+        ],
+        "incidents": [],
+        "app_events": [],
+        "risk_flags": {
+            "failed_delivery": false,
+            "delayed_delivery": false,
+            "has_complaint": true,
+            "has_incident": false,
+            "route_override_used": false,
+            "low_rating": false
+        }
+    },
+    {
+        "order_id": "O00042",
+        "customer": {
+            "customer_id": "C0606",
+            "customer_type": "Consumer",
+            "home_zone": "SOUTH",
+            "loyalty_tier": null
+        },
+        "order": {
+            "order_id": "O00042",
+            "customer_id": "C0606",
+            "service_type": "Retail",
+            "order_created_at": "2025-12-01 18:22:00",
+            "promised_window_hours": 24,
+            "pickup_zone": "Riverside",
+            "dropoff_zone": "Ctr",
+            "priority_level": "Medium",
+            "order_value": 133.72,
+            "booking_channel": "Phone",
+            "special_handling_flag": 1
+        },
+        "delivery": {
+            "delivery_id": "DL00472",
+            "order_id": "O00042",
+            "driver_id": "D113",
+            "vehicle_id": "V046",
+            "hub_id": "H01",
+            "dispatch_time": "2025-12-01 19:10:00",
+            "delivery_completed_at": "2025-12-03 08:16:03.110618",
+            "delivery_status": "Delayed",
+            "route_distance_km": 10.28,
+            "manual_route_override_count": 0,
+            "proof_of_completion_missing": 0,
+            "customer_rating_post_delivery": 3.59,
+            "fuel_or_charge_cost": 5.13,
+            "failed_delivery_flag": 0,
+            "delayed_delivery_flag": 1,
+            "route_override_flag": 0
+        },
+        "driver": {
+            "base_zone": "AIRPORT",
+            "employment_type": "PartTime",
+            "years_experience": 8,
+            "training_score": 70.5,
+            "driver_rating": 4.47,
+            "shift_preference": "Evening",
+            "active_flag": 1
+        },
+        "vehicle": {
+            "vehicle_type": "EV",
+            "assigned_zone": "north",
+            "commission_date": "2024-07-11 13:31:00",
+            "battery_health_pct": 95.8,
+            "odometer_km": 101425,
+            "maintenance_status": "Active",
+            "telematics_version": "v1.9"
+        },
+        "hub": {
+            "hub_name": "North Exchange",
+            "zone": "North",
+            "hub_type": "Dispatch",
+            "capacity_score": 82
+        },
+        "complaints": [],
+        "incidents": [
+            {
+                "incident_id": "I0276",
+                "delivery_id": "DL00472",
+                "incident_type": "SafetyNearMiss",
+                "reported_at": "2025-12-01 22:02:00",
+                "severity": "High",
+                "resolution_status": "PendingVendor",
+                "resolved_hours": 6.5
+            }
+        ],
+        "app_events": [],
+        "risk_flags": {
+            "failed_delivery": false,
+            "delayed_delivery": true,
+            "has_complaint": false,
+            "has_incident": true,
+            "route_override_used": false,
+            "low_rating": false
+        }
+    },
+    {
+        "order_id": "O00043",
+        "customer": {
+            "customer_id": "C0416",
+            "customer_type": "Consumer",
+            "home_zone": "South",
+            "loyalty_tier": null
+        },
+        "order": {
+            "order_id": "O00043",
+            "customer_id": "C0416",
+            "service_type": "Retail",
+            "order_created_at": "2024-01-01 03:53:00",
+            "promised_window_hours": 12,
+            "pickup_zone": "EAST",
+            "dropoff_zone": "RiverSide",
+            "priority_level": "Medium",
+            "order_value": 48.59,
+            "booking_channel": "API",
+            "special_handling_flag": 0
+        },
+        "delivery": {
+            "delivery_id": "DL00765",
+            "order_id": "O00043",
+            "driver_id": "D126",
+            "vehicle_id": "V023",
+            "hub_id": "H06",
+            "dispatch_time": "2024-01-01 06:03:00",
+            "delivery_completed_at": "2024-01-01 15:35:48.325916",
+            "delivery_status": "OnTime",
+            "route_distance_km": 16.23,
+            "manual_route_override_count": 1,
+            "proof_of_completion_missing": 0,
+            "customer_rating_post_delivery": 4.81,
+            "fuel_or_charge_cost": 15.76,
+            "failed_delivery_flag": 0,
+            "delayed_delivery_flag": 0,
+            "route_override_flag": 1
+        },
+        "driver": {
+            "base_zone": "East",
+            "employment_type": "PartTime",
+            "years_experience": 9,
+            "training_score": 69.7,
+            "driver_rating": 4.1,
+            "shift_preference": "Evening",
+            "active_flag": 1
+        },
+        "vehicle": {
+            "vehicle_type": "Hybrid",
+            "assigned_zone": "EAST",
+            "commission_date": "2024-01-07 23:54:00",
+            "battery_health_pct": 70.7,
+            "odometer_km": 188387,
+            "maintenance_status": "Active",
+            "telematics_version": "v2.1"
+        },
+        "hub": {
+            "hub_name": "Airport Hub",
+            "zone": "Airport",
+            "hub_type": "Dispatch",
+            "capacity_score": 71
+        },
+        "complaints": [],
+        "incidents": [
+            {
+                "incident_id": "I0198",
+                "delivery_id": "DL00765",
+                "incident_type": "ProofMissing",
+                "reported_at": "2024-01-01 06:44:00",
+                "severity": "Medium",
+                "resolution_status": "Open",
+                "resolved_hours": 3.1
+            }
+        ],
+        "app_events": [
+            {
+                "event_id": "AE00117",
+                "customer_id": "C0122",
+                "order_id": "O00043",
+                "event_timestamp": "2024-04-11 11:39:00",
+                "event_type": "track_order",
+                "session_id": "S18818",
+                "device_type": "Android",
+                "zone_context": "north",
+                "api_latency_ms": 387,
+                "success_flag": 1,
+                "app_failure_flag": 0
+            }
+        ],
+        "risk_flags": {
+            "failed_delivery": false,
+            "delayed_delivery": false,
+            "has_complaint": false,
+            "has_incident": true,
+            "route_override_used": true,
+            "low_rating": false
+        }
+    },
+    {
+        "order_id": "O00044",
+        "customer": {
+            "customer_id": "C0227",
+            "customer_type": "Consumer",
+            "home_zone": "WEST",
+            "loyalty_tier": null
+        },
+        "order": {
+            "order_id": "O00044",
+            "customer_id": "C0227",
+            "service_type": "Business",
+            "order_created_at": "2025-11-02 09:57:00",
+            "promised_window_hours": 4,
+            "pickup_zone": "West",
+            "dropoff_zone": "Riverside",
+            "priority_level": "Medium",
+            "order_value": 61.45,
+            "booking_channel": "Phone",
+            "special_handling_flag": 1
+        },
+        "delivery": {
+            "delivery_id": "DL00403",
+            "order_id": "O00044",
+            "driver_id": "D131",
+            "vehicle_id": "V092",
+            "hub_id": "H07",
+            "dispatch_time": "2025-11-02 10:07:00",
+            "delivery_completed_at": "2025-11-02 12:43:42.885570",
+            "delivery_status": "OnTime",
+            "route_distance_km": 11.6,
+            "manual_route_override_count": 1,
+            "proof_of_completion_missing": 0,
+            "customer_rating_post_delivery": 4.58,
+            "fuel_or_charge_cost": 13.74,
+            "failed_delivery_flag": 0,
+            "delayed_delivery_flag": 0,
+            "route_override_flag": 1
+        },
+        "driver": {
+            "base_zone": "SOUTH",
+            "employment_type": "FullTime",
+            "years_experience": 9,
+            "training_score": 86.7,
+            "driver_rating": 4.26,
+            "shift_preference": "Night",
+            "active_flag": 0
+        },
+        "vehicle": {
+            "vehicle_type": "Hybrid",
+            "assigned_zone": "East",
+            "commission_date": "2024-01-07 14:19:00",
+            "battery_health_pct": 80.5,
+            "odometer_km": 36143,
+            "maintenance_status": "InRepair",
+            "telematics_version": "v2.1"
+        },
+        "hub": {
+            "hub_name": "Riverside Hub",
+            "zone": "Riverside",
+            "hub_type": "Warehouse",
+            "capacity_score": 66
+        },
+        "complaints": [],
+        "incidents": [
+            {
+                "incident_id": "I0111",
+                "delivery_id": "DL00403",
+                "incident_type": "SafetyNearMiss",
+                "reported_at": "2025-11-02 11:15:00",
+                "severity": "Low",
+                "resolution_status": "Escalated",
+                "resolved_hours": NaN
+            }
+        ],
+        "app_events": [
+            {
+                "event_id": "AE00042",
+                "customer_id": "C0409",
+                "order_id": "O00044",
+                "event_timestamp": "2024-09-18 07:02:00",
+                "event_type": "search_route",
+                "session_id": "S80779",
+                "device_type": "iOS",
+                "zone_context": "north",
+                "api_latency_ms": 524,
+                "success_flag": 1,
+                "app_failure_flag": 0
+            },
+            {
+                "event_id": "AE00315",
+                "customer_id": "C0137",
+                "order_id": "O00044",
+                "event_timestamp": "2025-02-13 08:27:00",
+                "event_type": "delivery_instruction_update",
+                "session_id": "S89689",
+                "device_type": "Android",
+                "zone_context": "WEST",
+                "api_latency_ms": 296,
+                "success_flag": 1,
+                "app_failure_flag": 0
+            }
+        ],
+        "risk_flags": {
+            "failed_delivery": false,
+            "delayed_delivery": false,
+            "has_complaint": false,
+            "has_incident": true,
+            "route_override_used": true,
+            "low_rating": false
+        }
+    },
+    {
+        "order_id": "O00045",
+        "customer": {
+            "customer_id": "C0326",
+            "customer_type": "Consumer",
+            "home_zone": "West",
+            "loyalty_tier": null
+        },
+        "order": {
+            "order_id": "O00045",
+            "customer_id": "C0326",
+            "service_type": "Parcel",
+            "order_created_at": "2024-02-13 18:38:00",
+            "promised_window_hours": 6,
+            "pickup_zone": "SOUTH",
+            "dropoff_zone": "AIRPORT",
+            "priority_level": "Critical",
+            "order_value": 56.64,
+            "booking_channel": NaN,
+            "special_handling_flag": 0
+        },
+        "delivery": {
+            "delivery_id": "DL00110",
+            "order_id": "O00045",
+            "driver_id": "D024",
+            "vehicle_id": "V042",
+            "hub_id": "H03",
+            "dispatch_time": "2024-02-13 21:24:00",
+            "delivery_completed_at": "2024-02-14 01:15:37.449725",
+            "delivery_status": "OnTime",
+            "route_distance_km": 14.39,
+            "manual_route_override_count": 1,
+            "proof_of_completion_missing": 0,
+            "customer_rating_post_delivery": 4.74,
+            "fuel_or_charge_cost": 8.64,
+            "failed_delivery_flag": 0,
+            "delayed_delivery_flag": 0,
+            "route_override_flag": 1
+        },
+        "driver": {
+            "base_zone": "RiverSide",
+            "employment_type": "PartTime",
+            "years_experience": 8,
+            "training_score": 71.4,
+            "driver_rating": 3.35,
+            "shift_preference": "Evening",
+            "active_flag": 1
+        },
+        "vehicle": {
+            "vehicle_type": "EV",
+            "assigned_zone": "East",
+            "commission_date": "2025-06-21 07:06:00",
+            "battery_health_pct": 80.5,
+            "odometer_km": 215870,
+            "maintenance_status": "InRepair",
+            "telematics_version": "v1.9"
+        },
+        "hub": {
+            "hub_name": "East Dock",
+            "zone": "East",
+            "hub_type": "Warehouse",
+            "capacity_score": 74
+        },
+        "complaints": [
+            {
+                "complaint_id": "CP0163",
+                "customer_id": "C0326",
+                "order_id": "O00045",
+                "complaint_type": "Billing",
+                "channel": "App",
+                "severity": "Medium",
+                "created_at": "2024-02-19 18:38:00",
+                "status": "Open",
+                "resolution_days": 3,
+                "compensation_amount": 11.17
+            }
+        ],
+        "incidents": [],
+        "app_events": [],
+        "risk_flags": {
+            "failed_delivery": false,
+            "delayed_delivery": false,
+            "has_complaint": true,
+            "has_incident": false,
+            "route_override_used": true,
+            "low_rating": false
+        }
+    },
+    {
+        "order_id": "O00046",
+        "customer": {
+            "customer_id": "C0538",
+            "customer_type": "Enterprise",
+            "home_zone": "Central",
+            "loyalty_tier": null
+        },
+        "order": {
+            "order_id": "O00046",
+            "customer_id": "C0538",
+            "service_type": "Parcel",
+            "order_created_at": "2025-12-13 01:15:00",
+            "promised_window_hours": 4,
+            "pickup_zone": "NORTH",
+            "dropoff_zone": "CENTRAL",
+            "priority_level": "High",
+            "order_value": 85.48,
+            "booking_channel": "App",
+            "special_handling_flag": 0
+        },
+        "delivery": {},
+        "driver": {},
+        "vehicle": {},
+        "hub": {},
+        "complaints": [],
+        "incidents": [],
+        "app_events": [],
+        "risk_flags": {
+            "failed_delivery": false,
+            "delayed_delivery": false,
+            "has_complaint": false,
+            "has_incident": false,
+            "route_override_used": false,
+            "low_rating": false
+        }
+    },
+    {
+        "order_id": "O00047",
+        "customer": {
+            "customer_id": "C0220",
+            "customer_type": "SME",
+            "home_zone": "South",
+            "loyalty_tier": null
+        },
+        "order": {
+            "order_id": "O00047",
+            "customer_id": "C0220",
+            "service_type": "Medical",
+            "order_created_at": "2025-11-28 03:02:00",
+            "promised_window_hours": 2,
+            "pickup_zone": "WEST",
+            "dropoff_zone": "north",
+            "priority_level": "Medium",
+            "order_value": 39.57,
+            "booking_channel": "App",
+            "special_handling_flag": 0
+        },
+        "delivery": {
+            "delivery_id": "DL00923",
+            "order_id": "O00047",
+            "driver_id": "D071",
+            "vehicle_id": "V012",
+            "hub_id": "H03",
+            "dispatch_time": "2025-11-28 04:59:00",
+            "delivery_completed_at": "2025-11-28 05:50:08.491873",
+            "delivery_status": "OnTime",
+            "route_distance_km": 19.03,
+            "manual_route_override_count": 0,
+            "proof_of_completion_missing": 0,
+            "customer_rating_post_delivery": 4.7,
+            "fuel_or_charge_cost": 16.28,
+            "failed_delivery_flag": 0,
+            "delayed_delivery_flag": 0,
+            "route_override_flag": 0
+        },
+        "driver": {
+            "base_zone": "CENTRAL",
+            "employment_type": "PartTime",
+            "years_experience": 12,
+            "training_score": 56.7,
+            "driver_rating": 4.49,
+            "shift_preference": "Evening",
+            "active_flag": 1
+        },
+        "vehicle": {
+            "vehicle_type": "Hybrid",
+            "assigned_zone": "SOUTH",
+            "commission_date": "2024-04-15 00:26:00",
+            "battery_health_pct": 56.2,
+            "odometer_km": 52021,
+            "maintenance_status": "Active",
+            "telematics_version": "v2.1"
+        },
+        "hub": {
+            "hub_name": "East Dock",
+            "zone": "East",
+            "hub_type": "Warehouse",
+            "capacity_score": 74
+        },
+        "complaints": [],
+        "incidents": [],
+        "app_events": [],
+        "risk_flags": {
+            "failed_delivery": false,
+            "delayed_delivery": false,
+            "has_complaint": false,
+            "has_incident": false,
+            "route_override_used": false,
+            "low_rating": false
+        }
+    },
+    {
+        "order_id": "O00048",
+        "customer": {
+            "customer_id": "C0145",
+            "customer_type": "Consumer",
+            "home_zone": "AIRPORT",
+            "loyalty_tier": null
+        },
+        "order": {
+            "order_id": "O00048",
+            "customer_id": "C0145",
+            "service_type": "Medical",
+            "order_created_at": "2024-11-22 06:49:00",
+            "promised_window_hours": 4,
+            "pickup_zone": "RiverSide",
+            "dropoff_zone": "NORTH",
+            "priority_level": "Low",
+            "order_value": 43.37,
+            "booking_channel": "App",
+            "special_handling_flag": 0
+        },
+        "delivery": {},
+        "driver": {},
+        "vehicle": {},
+        "hub": {},
+        "complaints": [
+            {
+                "complaint_id": "CP0214",
+                "customer_id": "C0145",
+                "order_id": "O00048",
+                "complaint_type": "MissedPickup",
+                "channel": "App",
+                "severity": "High",
+                "created_at": "2024-11-27 06:49:00",
+                "status": "Resolved",
+                "resolution_days": 12,
+                "compensation_amount": 61.85
+            }
+        ],
+        "incidents": [],
+        "app_events": [],
+        "risk_flags": {
+            "failed_delivery": false,
+            "delayed_delivery": false,
+            "has_complaint": true,
+            "has_incident": false,
+            "route_override_used": false,
+            "low_rating": false
+        }
+    },
+    {
+        "order_id": "O00049",
+        "customer": {
+            "customer_id": "C0380",
+            "customer_type": "SME",
+            "home_zone": "CENTRAL",
+            "loyalty_tier": null
+        },
+        "order": {
+            "order_id": "O00049",
+            "customer_id": "C0380",
+            "service_type": "Passenger",
+            "order_created_at": "2024-12-19 23:58:00",
+            "promised_window_hours": 2,
+            "pickup_zone": "WEST",
+            "dropoff_zone": "SOUTH",
+            "priority_level": "Low",
+            "order_value": 66.46,
+            "booking_channel": "Phone",
+            "special_handling_flag": 1
+        },
+        "delivery": {},
+        "driver": {},
+        "vehicle": {},
+        "hub": {},
+        "complaints": [],
+        "incidents": [],
+        "app_events": [],
+        "risk_flags": {
+            "failed_delivery": false,
+            "delayed_delivery": false,
+            "has_complaint": false,
+            "has_incident": false,
+            "route_override_used": false,
+            "low_rating": false
+        }
+    },
+    {
+        "order_id": "O00050",
+        "customer": {
+            "customer_id": "C0544",
+            "customer_type": "Consumer",
+            "home_zone": "north",
+            "loyalty_tier": null
+        },
+        "order": {
+            "order_id": "O00050",
+            "customer_id": "C0544",
+            "service_type": "Passenger",
+            "order_created_at": "2024-03-29 13:44:00",
+            "promised_window_hours": 1,
+            "pickup_zone": "NORTH",
+            "dropoff_zone": "Ctr",
+            "priority_level": "Low",
+            "order_value": 33.93,
+            "booking_channel": "App",
+            "special_handling_flag": 0
+        },
+        "delivery": {},
+        "driver": {},
+        "vehicle": {},
+        "hub": {},
+        "complaints": [
+            {
+                "complaint_id": "CP0266",
+                "customer_id": "C0544",
+                "order_id": "O00050",
+                "complaint_type": "Damage",
+                "channel": "App",
+                "severity": "High",
+                "created_at": "2024-03-30 13:44:00",
+                "status": "Open",
+                "resolution_days": 15,
+                "compensation_amount": 38.9
+            }
+        ],
+        "incidents": [],
+        "app_events": [
+            {
+                "event_id": "AE00546",
+                "customer_id": "C0041",
+                "order_id": "O00050",
+                "event_timestamp": "2025-07-18 12:02:00",
+                "event_type": "eta_refresh",
+                "session_id": "S37605",
+                "device_type": "Web",
+                "zone_context": "NORTH",
+                "api_latency_ms": 242,
+                "success_flag": 1,
+                "app_failure_flag": 0
+            }
+        ],
+        "risk_flags": {
+            "failed_delivery": false,
+            "delayed_delivery": false,
+            "has_complaint": true,
+            "has_incident": false,
+            "route_override_used": false,
+            "low_rating": false
+        }
+    }
+]

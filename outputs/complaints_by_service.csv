@@ -1,0 +1,6 @@
+service_type,complaints,avg_resolution_days,total_compensation
+Passenger,84,7.74,1657.53
+Retail,83,7.89,1486.14
+Parcel,77,8.34,1463.65
+Business,39,7.95,810.86
+Medical,37,7.57,740.01
